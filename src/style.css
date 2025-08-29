@@ -1,0 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Autocomplete dropdown layering */
+.overlay {
+  position: relative;
+  z-index: 10;
+}
+
+/* Clamp helper (if Tailwind plugin not present) */
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
