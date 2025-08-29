@@ -1,0 +1,1886 @@
+{
+  "dataset": "English Vocabulary",
+  "level": "grade_1",
+  "version": "v1",
+  "updated": "2025-08-29",
+  "note": "Grade 1 core set. word_examples = các dạng từ; trùng nhau chỉ ghi 1.",
+  "categories": [
+    {
+      "name": "Animals",
+      "description": "Động vật quen thuộc.",
+      "items": [
+        {
+          "name": "cat",
+          "desc": "con mèo",
+          "word_examples": [
+            "cat",
+            "cats"
+          ]
+        },
+        {
+          "name": "dog",
+          "desc": "con chó",
+          "word_examples": [
+            "dog",
+            "dogs"
+          ]
+        },
+        {
+          "name": "fish",
+          "desc": "con cá",
+          "word_examples": [
+            "fish"
+          ]
+        },
+        {
+          "name": "bird",
+          "desc": "con chim",
+          "word_examples": [
+            "bird",
+            "birds"
+          ]
+        },
+        {
+          "name": "cow",
+          "desc": "con bò",
+          "word_examples": [
+            "cow",
+            "cows"
+          ]
+        },
+        {
+          "name": "duck",
+          "desc": "con vịt",
+          "word_examples": [
+            "duck",
+            "ducks"
+          ]
+        },
+        {
+          "name": "pig",
+          "desc": "con heo",
+          "word_examples": [
+            "pig",
+            "pigs"
+          ]
+        },
+        {
+          "name": "goat",
+          "desc": "con dê",
+          "word_examples": [
+            "goat",
+            "goats"
+          ]
+        },
+        {
+          "name": "horse",
+          "desc": "con ngựa",
+          "word_examples": [
+            "horse",
+            "horses"
+          ]
+        },
+        {
+          "name": "chicken",
+          "desc": "con gà",
+          "word_examples": [
+            "chicken",
+            "chickens"
+          ]
+        },
+        {
+          "name": "sheep",
+          "desc": "con cừu",
+          "word_examples": [
+            "sheep"
+          ]
+        },
+        {
+          "name": "rabbit",
+          "desc": "con thỏ",
+          "word_examples": [
+            "rabbit",
+            "rabbits"
+          ]
+        },
+        {
+          "name": "frog",
+          "desc": "con ếch",
+          "word_examples": [
+            "frog",
+            "frogs"
+          ]
+        },
+        {
+          "name": "ant",
+          "desc": "con kiến",
+          "word_examples": [
+            "ant",
+            "ants"
+          ]
+        },
+        {
+          "name": "bee",
+          "desc": "con ong",
+          "word_examples": [
+            "bee",
+            "bees"
+          ]
+        },
+        {
+          "name": "turtle",
+          "desc": "con rùa",
+          "word_examples": [
+            "turtle",
+            "turtles"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Actions",
+      "description": "Động từ thường ngày.",
+      "items": [
+        {
+          "name": "run",
+          "desc": "chạy",
+          "word_examples": [
+            "run",
+            "runs",
+            "running",
+            "ran"
+          ]
+        },
+        {
+          "name": "walk",
+          "desc": "đi bộ",
+          "word_examples": [
+            "walk",
+            "walks",
+            "walking",
+            "walked"
+          ]
+        },
+        {
+          "name": "jump",
+          "desc": "nhảy",
+          "word_examples": [
+            "jump",
+            "jumps",
+            "jumping",
+            "jumped"
+          ]
+        },
+        {
+          "name": "sit",
+          "desc": "ngồi",
+          "word_examples": [
+            "sit",
+            "sits",
+            "sitting",
+            "sat"
+          ]
+        },
+        {
+          "name": "stand",
+          "desc": "đứng",
+          "word_examples": [
+            "stand",
+            "stands",
+            "standing",
+            "stood"
+          ]
+        },
+        {
+          "name": "go",
+          "desc": "đi",
+          "word_examples": [
+            "go",
+            "goes",
+            "going",
+            "went"
+          ]
+        },
+        {
+          "name": "come",
+          "desc": "đến",
+          "word_examples": [
+            "come",
+            "comes",
+            "coming",
+            "came"
+          ]
+        },
+        {
+          "name": "eat",
+          "desc": "ăn",
+          "word_examples": [
+            "eat",
+            "eats",
+            "eating",
+            "ate"
+          ]
+        },
+        {
+          "name": "drink",
+          "desc": "uống",
+          "word_examples": [
+            "drink",
+            "drinks",
+            "drinking",
+            "drank"
+          ]
+        },
+        {
+          "name": "sleep",
+          "desc": "ngủ",
+          "word_examples": [
+            "sleep",
+            "sleeps",
+            "sleeping",
+            "slept"
+          ]
+        },
+        {
+          "name": "read",
+          "desc": "đọc",
+          "word_examples": [
+            "read",
+            "reads",
+            "reading"
+          ]
+        },
+        {
+          "name": "write",
+          "desc": "viết",
+          "word_examples": [
+            "write",
+            "writes",
+            "writing",
+            "wrote"
+          ]
+        },
+        {
+          "name": "play",
+          "desc": "chơi",
+          "word_examples": [
+            "play",
+            "plays",
+            "playing",
+            "played"
+          ]
+        },
+        {
+          "name": "see",
+          "desc": "nhìn thấy",
+          "word_examples": [
+            "see",
+            "sees",
+            "seeing",
+            "saw"
+          ]
+        },
+        {
+          "name": "look",
+          "desc": "nhìn",
+          "word_examples": [
+            "look",
+            "looks",
+            "looking",
+            "looked"
+          ]
+        },
+        {
+          "name": "listen",
+          "desc": "lắng nghe",
+          "word_examples": [
+            "listen",
+            "listens",
+            "listening",
+            "listened"
+          ]
+        },
+        {
+          "name": "speak",
+          "desc": "nói",
+          "word_examples": [
+            "speak",
+            "speaks",
+            "speaking",
+            "spoke"
+          ]
+        },
+        {
+          "name": "like",
+          "desc": "thích",
+          "word_examples": [
+            "like",
+            "likes",
+            "liking",
+            "liked"
+          ]
+        },
+        {
+          "name": "open",
+          "desc": "mở",
+          "word_examples": [
+            "open",
+            "opens",
+            "opening",
+            "opened"
+          ]
+        },
+        {
+          "name": "close",
+          "desc": "đóng",
+          "word_examples": [
+            "close",
+            "closes",
+            "closing",
+            "closed"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Body",
+      "description": "Bộ phận cơ thể.",
+      "items": [
+        {
+          "name": "head",
+          "desc": "đầu",
+          "word_examples": [
+            "head",
+            "heads"
+          ]
+        },
+        {
+          "name": "face",
+          "desc": "khuôn mặt",
+          "word_examples": [
+            "face",
+            "faces"
+          ]
+        },
+        {
+          "name": "hair",
+          "desc": "tóc",
+          "word_examples": [
+            "hair"
+          ]
+        },
+        {
+          "name": "eye",
+          "desc": "mắt",
+          "word_examples": [
+            "eye",
+            "eyes"
+          ]
+        },
+        {
+          "name": "ear",
+          "desc": "tai",
+          "word_examples": [
+            "ear",
+            "ears"
+          ]
+        },
+        {
+          "name": "nose",
+          "desc": "mũi",
+          "word_examples": [
+            "nose",
+            "noses"
+          ]
+        },
+        {
+          "name": "mouth",
+          "desc": "miệng",
+          "word_examples": [
+            "mouth",
+            "mouths"
+          ]
+        },
+        {
+          "name": "tooth",
+          "desc": "răng",
+          "word_examples": [
+            "tooth",
+            "teeth"
+          ]
+        },
+        {
+          "name": "tongue",
+          "desc": "lưỡi",
+          "word_examples": [
+            "tongue",
+            "tongues"
+          ]
+        },
+        {
+          "name": "hand",
+          "desc": "bàn tay",
+          "word_examples": [
+            "hand",
+            "hands"
+          ]
+        },
+        {
+          "name": "arm",
+          "desc": "cánh tay",
+          "word_examples": [
+            "arm",
+            "arms"
+          ]
+        },
+        {
+          "name": "leg",
+          "desc": "chân",
+          "word_examples": [
+            "leg",
+            "legs"
+          ]
+        },
+        {
+          "name": "foot",
+          "desc": "bàn chân",
+          "word_examples": [
+            "foot",
+            "feet"
+          ]
+        },
+        {
+          "name": "knee",
+          "desc": "đầu gối",
+          "word_examples": [
+            "knee",
+            "knees"
+          ]
+        },
+        {
+          "name": "shoulder",
+          "desc": "vai",
+          "word_examples": [
+            "shoulder",
+            "shoulders"
+          ]
+        },
+        {
+          "name": "back",
+          "desc": "lưng",
+          "word_examples": [
+            "back",
+            "backs"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Colors",
+      "description": "Màu sắc cơ bản.",
+      "items": [
+        {
+          "name": "red",
+          "desc": "màu đỏ",
+          "word_examples": [
+            "red"
+          ]
+        },
+        {
+          "name": "blue",
+          "desc": "màu xanh dương",
+          "word_examples": [
+            "blue"
+          ]
+        },
+        {
+          "name": "green",
+          "desc": "màu xanh lá",
+          "word_examples": [
+            "green"
+          ]
+        },
+        {
+          "name": "yellow",
+          "desc": "màu vàng",
+          "word_examples": [
+            "yellow"
+          ]
+        },
+        {
+          "name": "black",
+          "desc": "màu đen",
+          "word_examples": [
+            "black"
+          ]
+        },
+        {
+          "name": "white",
+          "desc": "màu trắng",
+          "word_examples": [
+            "white"
+          ]
+        },
+        {
+          "name": "orange",
+          "desc": "màu cam",
+          "word_examples": [
+            "orange"
+          ]
+        },
+        {
+          "name": "purple",
+          "desc": "màu tím",
+          "word_examples": [
+            "purple"
+          ]
+        },
+        {
+          "name": "brown",
+          "desc": "màu nâu",
+          "word_examples": [
+            "brown"
+          ]
+        },
+        {
+          "name": "pink",
+          "desc": "màu hồng",
+          "word_examples": [
+            "pink"
+          ]
+        },
+        {
+          "name": "gray",
+          "desc": "màu xám",
+          "word_examples": [
+            "gray"
+          ]
+        },
+        {
+          "name": "gold",
+          "desc": "màu vàng kim",
+          "word_examples": [
+            "gold"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Numbers",
+      "description": "Số cơ bản.",
+      "items": [
+        {
+          "name": "zero",
+          "desc": "số 0",
+          "word_examples": [
+            "zero"
+          ]
+        },
+        {
+          "name": "one",
+          "desc": "số 1",
+          "word_examples": [
+            "one"
+          ]
+        },
+        {
+          "name": "two",
+          "desc": "số 2",
+          "word_examples": [
+            "two"
+          ]
+        },
+        {
+          "name": "three",
+          "desc": "số 3",
+          "word_examples": [
+            "three"
+          ]
+        },
+        {
+          "name": "four",
+          "desc": "số 4",
+          "word_examples": [
+            "four"
+          ]
+        },
+        {
+          "name": "five",
+          "desc": "số 5",
+          "word_examples": [
+            "five"
+          ]
+        },
+        {
+          "name": "six",
+          "desc": "số 6",
+          "word_examples": [
+            "six"
+          ]
+        },
+        {
+          "name": "seven",
+          "desc": "số 7",
+          "word_examples": [
+            "seven"
+          ]
+        },
+        {
+          "name": "eight",
+          "desc": "số 8",
+          "word_examples": [
+            "eight"
+          ]
+        },
+        {
+          "name": "nine",
+          "desc": "số 9",
+          "word_examples": [
+            "nine"
+          ]
+        },
+        {
+          "name": "ten",
+          "desc": "số 10",
+          "word_examples": [
+            "ten"
+          ]
+        },
+        {
+          "name": "eleven",
+          "desc": "số 11",
+          "word_examples": [
+            "eleven"
+          ]
+        },
+        {
+          "name": "twelve",
+          "desc": "số 12",
+          "word_examples": [
+            "twelve"
+          ]
+        },
+        {
+          "name": "thirteen",
+          "desc": "số 13",
+          "word_examples": [
+            "thirteen"
+          ]
+        },
+        {
+          "name": "fourteen",
+          "desc": "số 14",
+          "word_examples": [
+            "fourteen"
+          ]
+        },
+        {
+          "name": "fifteen",
+          "desc": "số 15",
+          "word_examples": [
+            "fifteen"
+          ]
+        },
+        {
+          "name": "sixteen",
+          "desc": "số 16",
+          "word_examples": [
+            "sixteen"
+          ]
+        },
+        {
+          "name": "seventeen",
+          "desc": "số 17",
+          "word_examples": [
+            "seventeen"
+          ]
+        },
+        {
+          "name": "eighteen",
+          "desc": "số 18",
+          "word_examples": [
+            "eighteen"
+          ]
+        },
+        {
+          "name": "nineteen",
+          "desc": "số 19",
+          "word_examples": [
+            "nineteen"
+          ]
+        },
+        {
+          "name": "twenty",
+          "desc": "số 20",
+          "word_examples": [
+            "twenty"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "School",
+      "description": "Đồ vật và người trong lớp học.",
+      "items": [
+        {
+          "name": "book",
+          "desc": "quyển sách",
+          "word_examples": [
+            "book",
+            "books"
+          ]
+        },
+        {
+          "name": "pen",
+          "desc": "bút mực",
+          "word_examples": [
+            "pen",
+            "pens"
+          ]
+        },
+        {
+          "name": "pencil",
+          "desc": "bút chì",
+          "word_examples": [
+            "pencil",
+            "pencils"
+          ]
+        },
+        {
+          "name": "bag",
+          "desc": "cặp/túi",
+          "word_examples": [
+            "bag",
+            "bags"
+          ]
+        },
+        {
+          "name": "ruler",
+          "desc": "thước kẻ",
+          "word_examples": [
+            "ruler",
+            "rulers"
+          ]
+        },
+        {
+          "name": "desk",
+          "desc": "bàn học",
+          "word_examples": [
+            "desk",
+            "desks"
+          ]
+        },
+        {
+          "name": "chair",
+          "desc": "ghế",
+          "word_examples": [
+            "chair",
+            "chairs"
+          ]
+        },
+        {
+          "name": "board",
+          "desc": "bảng",
+          "word_examples": [
+            "board",
+            "boards"
+          ]
+        },
+        {
+          "name": "eraser",
+          "desc": "cục tẩy",
+          "word_examples": [
+            "eraser",
+            "erasers"
+          ]
+        },
+        {
+          "name": "notebook",
+          "desc": "vở",
+          "word_examples": [
+            "notebook",
+            "notebooks"
+          ]
+        },
+        {
+          "name": "crayon",
+          "desc": "bút sáp màu",
+          "word_examples": [
+            "crayon",
+            "crayons"
+          ]
+        },
+        {
+          "name": "marker",
+          "desc": "bút lông",
+          "word_examples": [
+            "marker",
+            "markers"
+          ]
+        },
+        {
+          "name": "glue",
+          "desc": "keo dán",
+          "word_examples": [
+            "glue"
+          ]
+        },
+        {
+          "name": "scissors",
+          "desc": "kéo",
+          "word_examples": [
+            "scissors"
+          ]
+        },
+        {
+          "name": "teacher",
+          "desc": "giáo viên",
+          "word_examples": [
+            "teacher",
+            "teachers"
+          ]
+        },
+        {
+          "name": "student",
+          "desc": "học sinh",
+          "word_examples": [
+            "student",
+            "students"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Family",
+      "description": "Thành viên gia đình.",
+      "items": [
+        {
+          "name": "father",
+          "desc": "bố",
+          "word_examples": [
+            "father",
+            "fathers"
+          ]
+        },
+        {
+          "name": "mother",
+          "desc": "mẹ",
+          "word_examples": [
+            "mother",
+            "mothers"
+          ]
+        },
+        {
+          "name": "parent",
+          "desc": "cha/mẹ",
+          "word_examples": [
+            "parent",
+            "parents"
+          ]
+        },
+        {
+          "name": "brother",
+          "desc": "anh/em trai",
+          "word_examples": [
+            "brother",
+            "brothers"
+          ]
+        },
+        {
+          "name": "sister",
+          "desc": "chị/em gái",
+          "word_examples": [
+            "sister",
+            "sisters"
+          ]
+        },
+        {
+          "name": "grandfather",
+          "desc": "ông",
+          "word_examples": [
+            "grandfather",
+            "grandfathers"
+          ]
+        },
+        {
+          "name": "grandmother",
+          "desc": "bà",
+          "word_examples": [
+            "grandmother",
+            "grandmothers"
+          ]
+        },
+        {
+          "name": "uncle",
+          "desc": "chú/bác trai",
+          "word_examples": [
+            "uncle",
+            "uncles"
+          ]
+        },
+        {
+          "name": "aunt",
+          "desc": "cô/dì",
+          "word_examples": [
+            "aunt",
+            "aunts"
+          ]
+        },
+        {
+          "name": "cousin",
+          "desc": "anh/chị/em họ",
+          "word_examples": [
+            "cousin",
+            "cousins"
+          ]
+        },
+        {
+          "name": "baby",
+          "desc": "em bé",
+          "word_examples": [
+            "baby",
+            "babies"
+          ]
+        },
+        {
+          "name": "family",
+          "desc": "gia đình",
+          "word_examples": [
+            "family",
+            "families"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Home",
+      "description": "Phòng và đồ vật trong nhà.",
+      "items": [
+        {
+          "name": "house",
+          "desc": "ngôi nhà",
+          "word_examples": [
+            "house",
+            "houses"
+          ]
+        },
+        {
+          "name": "room",
+          "desc": "phòng",
+          "word_examples": [
+            "room",
+            "rooms"
+          ]
+        },
+        {
+          "name": "kitchen",
+          "desc": "nhà bếp",
+          "word_examples": [
+            "kitchen",
+            "kitchens"
+          ]
+        },
+        {
+          "name": "bedroom",
+          "desc": "phòng ngủ",
+          "word_examples": [
+            "bedroom",
+            "bedrooms"
+          ]
+        },
+        {
+          "name": "bathroom",
+          "desc": "phòng tắm",
+          "word_examples": [
+            "bathroom",
+            "bathrooms"
+          ]
+        },
+        {
+          "name": "living room",
+          "desc": "phòng khách",
+          "word_examples": [
+            "living room",
+            "living rooms"
+          ]
+        },
+        {
+          "name": "table",
+          "desc": "bàn",
+          "word_examples": [
+            "table",
+            "tables"
+          ]
+        },
+        {
+          "name": "chair",
+          "desc": "ghế",
+          "word_examples": [
+            "chair",
+            "chairs"
+          ]
+        },
+        {
+          "name": "bed",
+          "desc": "giường",
+          "word_examples": [
+            "bed",
+            "beds"
+          ]
+        },
+        {
+          "name": "door",
+          "desc": "cửa",
+          "word_examples": [
+            "door",
+            "doors"
+          ]
+        },
+        {
+          "name": "window",
+          "desc": "cửa sổ",
+          "word_examples": [
+            "window",
+            "windows"
+          ]
+        },
+        {
+          "name": "lamp",
+          "desc": "đèn",
+          "word_examples": [
+            "lamp",
+            "lamps"
+          ]
+        },
+        {
+          "name": "clock",
+          "desc": "đồng hồ",
+          "word_examples": [
+            "clock",
+            "clocks"
+          ]
+        },
+        {
+          "name": "cup",
+          "desc": "cốc",
+          "word_examples": [
+            "cup",
+            "cups"
+          ]
+        },
+        {
+          "name": "plate",
+          "desc": "đĩa",
+          "word_examples": [
+            "plate",
+            "plates"
+          ]
+        },
+        {
+          "name": "spoon",
+          "desc": "thìa",
+          "word_examples": [
+            "spoon",
+            "spoons"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Food",
+      "description": "Thức ăn và trái cây cơ bản.",
+      "items": [
+        {
+          "name": "apple",
+          "desc": "quả táo",
+          "word_examples": [
+            "apple",
+            "apples"
+          ]
+        },
+        {
+          "name": "banana",
+          "desc": "quả chuối",
+          "word_examples": [
+            "banana",
+            "bananas"
+          ]
+        },
+        {
+          "name": "orange",
+          "desc": "quả cam",
+          "word_examples": [
+            "orange",
+            "oranges"
+          ]
+        },
+        {
+          "name": "grape",
+          "desc": "quả nho",
+          "word_examples": [
+            "grape",
+            "grapes"
+          ]
+        },
+        {
+          "name": "mango",
+          "desc": "quả xoài",
+          "word_examples": [
+            "mango",
+            "mangoes"
+          ]
+        },
+        {
+          "name": "watermelon",
+          "desc": "dưa hấu",
+          "word_examples": [
+            "watermelon",
+            "watermelons"
+          ]
+        },
+        {
+          "name": "strawberry",
+          "desc": "dâu tây",
+          "word_examples": [
+            "strawberry",
+            "strawberries"
+          ]
+        },
+        {
+          "name": "pineapple",
+          "desc": "dứa",
+          "word_examples": [
+            "pineapple",
+            "pineapples"
+          ]
+        },
+        {
+          "name": "rice",
+          "desc": "cơm/gạo",
+          "word_examples": [
+            "rice"
+          ]
+        },
+        {
+          "name": "bread",
+          "desc": "bánh mì",
+          "word_examples": [
+            "bread",
+            "breads"
+          ]
+        },
+        {
+          "name": "egg",
+          "desc": "trứng",
+          "word_examples": [
+            "egg",
+            "eggs"
+          ]
+        },
+        {
+          "name": "milk",
+          "desc": "sữa",
+          "word_examples": [
+            "milk"
+          ]
+        },
+        {
+          "name": "meat",
+          "desc": "thịt",
+          "word_examples": [
+            "meat",
+            "meats"
+          ]
+        },
+        {
+          "name": "chicken",
+          "desc": "thịt gà",
+          "word_examples": [
+            "chicken",
+            "chickens"
+          ]
+        },
+        {
+          "name": "fish",
+          "desc": "cá",
+          "word_examples": [
+            "fish"
+          ]
+        },
+        {
+          "name": "soup",
+          "desc": "súp/canh",
+          "word_examples": [
+            "soup",
+            "soups"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clothes",
+      "description": "Quần áo cơ bản.",
+      "items": [
+        {
+          "name": "shirt",
+          "desc": "áo sơ mi/áo",
+          "word_examples": [
+            "shirt",
+            "shirts"
+          ]
+        },
+        {
+          "name": "T-shirt",
+          "desc": "áo thun",
+          "word_examples": [
+            "T-shirt",
+            "T-shirts"
+          ]
+        },
+        {
+          "name": "dress",
+          "desc": "váy liền",
+          "word_examples": [
+            "dress",
+            "dresses"
+          ]
+        },
+        {
+          "name": "skirt",
+          "desc": "chân váy",
+          "word_examples": [
+            "skirt",
+            "skirts"
+          ]
+        },
+        {
+          "name": "pants",
+          "desc": "quần dài",
+          "word_examples": [
+            "pants"
+          ]
+        },
+        {
+          "name": "shorts",
+          "desc": "quần short",
+          "word_examples": [
+            "shorts"
+          ]
+        },
+        {
+          "name": "shoes",
+          "desc": "giày",
+          "word_examples": [
+            "shoes"
+          ]
+        },
+        {
+          "name": "socks",
+          "desc": "tất/vớ",
+          "word_examples": [
+            "socks"
+          ]
+        },
+        {
+          "name": "hat",
+          "desc": "mũ/nón",
+          "word_examples": [
+            "hat",
+            "hats"
+          ]
+        },
+        {
+          "name": "coat",
+          "desc": "áo khoác",
+          "word_examples": [
+            "coat",
+            "coats"
+          ]
+        },
+        {
+          "name": "jacket",
+          "desc": "áo khoác ngắn",
+          "word_examples": [
+            "jacket",
+            "jackets"
+          ]
+        },
+        {
+          "name": "uniform",
+          "desc": "đồng phục",
+          "word_examples": [
+            "uniform",
+            "uniforms"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weather",
+      "description": "Thời tiết cơ bản.",
+      "items": [
+        {
+          "name": "sunny",
+          "desc": "nắng",
+          "word_examples": [
+            "sunny"
+          ]
+        },
+        {
+          "name": "rainy",
+          "desc": "mưa",
+          "word_examples": [
+            "rainy"
+          ]
+        },
+        {
+          "name": "cloudy",
+          "desc": "nhiều mây",
+          "word_examples": [
+            "cloudy"
+          ]
+        },
+        {
+          "name": "windy",
+          "desc": "gió",
+          "word_examples": [
+            "windy"
+          ]
+        },
+        {
+          "name": "snowy",
+          "desc": "tuyết",
+          "word_examples": [
+            "snowy"
+          ]
+        },
+        {
+          "name": "hot",
+          "desc": "nóng",
+          "word_examples": [
+            "hot",
+            "hotter",
+            "hottest"
+          ]
+        },
+        {
+          "name": "cold",
+          "desc": "lạnh",
+          "word_examples": [
+            "cold",
+            "colder",
+            "coldest"
+          ]
+        },
+        {
+          "name": "warm",
+          "desc": "ấm",
+          "word_examples": [
+            "warm",
+            "warmer",
+            "warmest"
+          ]
+        },
+        {
+          "name": "cool",
+          "desc": "mát",
+          "word_examples": [
+            "cool",
+            "cooler",
+            "coolest"
+          ]
+        },
+        {
+          "name": "storm",
+          "desc": "bão",
+          "word_examples": [
+            "storm",
+            "storms"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Places",
+      "description": "Địa điểm quen thuộc.",
+      "items": [
+        {
+          "name": "school",
+          "desc": "trường học",
+          "word_examples": [
+            "school",
+            "schools"
+          ]
+        },
+        {
+          "name": "home",
+          "desc": "nhà",
+          "word_examples": [
+            "home",
+            "homes"
+          ]
+        },
+        {
+          "name": "park",
+          "desc": "công viên",
+          "word_examples": [
+            "park",
+            "parks"
+          ]
+        },
+        {
+          "name": "zoo",
+          "desc": "sở thú",
+          "word_examples": [
+            "zoo",
+            "zoos"
+          ]
+        },
+        {
+          "name": "store",
+          "desc": "cửa hàng",
+          "word_examples": [
+            "store",
+            "stores"
+          ]
+        },
+        {
+          "name": "market",
+          "desc": "chợ",
+          "word_examples": [
+            "market",
+            "markets"
+          ]
+        },
+        {
+          "name": "street",
+          "desc": "đường phố",
+          "word_examples": [
+            "street",
+            "streets"
+          ]
+        },
+        {
+          "name": "playground",
+          "desc": "sân chơi",
+          "word_examples": [
+            "playground",
+            "playgrounds"
+          ]
+        },
+        {
+          "name": "hospital",
+          "desc": "bệnh viện",
+          "word_examples": [
+            "hospital",
+            "hospitals"
+          ]
+        },
+        {
+          "name": "library",
+          "desc": "thư viện",
+          "word_examples": [
+            "library",
+            "libraries"
+          ]
+        },
+        {
+          "name": "farm",
+          "desc": "nông trại",
+          "word_examples": [
+            "farm",
+            "farms"
+          ]
+        },
+        {
+          "name": "beach",
+          "desc": "bãi biển",
+          "word_examples": [
+            "beach",
+            "beaches"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transport",
+      "description": "Phương tiện di chuyển.",
+      "items": [
+        {
+          "name": "car",
+          "desc": "xe ô tô",
+          "word_examples": [
+            "car",
+            "cars"
+          ]
+        },
+        {
+          "name": "bus",
+          "desc": "xe buýt",
+          "word_examples": [
+            "bus",
+            "buses"
+          ]
+        },
+        {
+          "name": "bike",
+          "desc": "xe đạp",
+          "word_examples": [
+            "bike",
+            "bikes"
+          ]
+        },
+        {
+          "name": "train",
+          "desc": "tàu hỏa",
+          "word_examples": [
+            "train",
+            "trains"
+          ]
+        },
+        {
+          "name": "plane",
+          "desc": "máy bay",
+          "word_examples": [
+            "plane",
+            "planes"
+          ]
+        },
+        {
+          "name": "boat",
+          "desc": "thuyền/tàu",
+          "word_examples": [
+            "boat",
+            "boats"
+          ]
+        },
+        {
+          "name": "motorbike",
+          "desc": "xe máy",
+          "word_examples": [
+            "motorbike",
+            "motorbikes"
+          ]
+        },
+        {
+          "name": "truck",
+          "desc": "xe tải",
+          "word_examples": [
+            "truck",
+            "trucks"
+          ]
+        },
+        {
+          "name": "taxi",
+          "desc": "xe taxi",
+          "word_examples": [
+            "taxi",
+            "taxis"
+          ]
+        },
+        {
+          "name": "ship",
+          "desc": "tàu thủy",
+          "word_examples": [
+            "ship",
+            "ships"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shapes",
+      "description": "Hình dạng cơ bản.",
+      "items": [
+        {
+          "name": "circle",
+          "desc": "hình tròn",
+          "word_examples": [
+            "circle",
+            "circles"
+          ]
+        },
+        {
+          "name": "square",
+          "desc": "hình vuông",
+          "word_examples": [
+            "square",
+            "squares"
+          ]
+        },
+        {
+          "name": "triangle",
+          "desc": "hình tam giác",
+          "word_examples": [
+            "triangle",
+            "triangles"
+          ]
+        },
+        {
+          "name": "rectangle",
+          "desc": "hình chữ nhật",
+          "word_examples": [
+            "rectangle",
+            "rectangles"
+          ]
+        },
+        {
+          "name": "oval",
+          "desc": "hình bầu dục",
+          "word_examples": [
+            "oval",
+            "ovals"
+          ]
+        },
+        {
+          "name": "star",
+          "desc": "ngôi sao",
+          "word_examples": [
+            "star",
+            "stars"
+          ]
+        },
+        {
+          "name": "heart",
+          "desc": "hình trái tim",
+          "word_examples": [
+            "heart",
+            "hearts"
+          ]
+        },
+        {
+          "name": "diamond",
+          "desc": "hình thoi/kim cương",
+          "word_examples": [
+            "diamond",
+            "diamonds"
+          ]
+        },
+        {
+          "name": "cube",
+          "desc": "khối lập phương",
+          "word_examples": [
+            "cube",
+            "cubes"
+          ]
+        },
+        {
+          "name": "cone",
+          "desc": "khối nón",
+          "word_examples": [
+            "cone",
+            "cones"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Time",
+      "description": "Ngày trong tuần và khái niệm thời gian đơn giản.",
+      "items": [
+        {
+          "name": "Monday",
+          "desc": "thứ Hai",
+          "word_examples": [
+            "Monday"
+          ]
+        },
+        {
+          "name": "Tuesday",
+          "desc": "thứ Ba",
+          "word_examples": [
+            "Tuesday"
+          ]
+        },
+        {
+          "name": "Wednesday",
+          "desc": "thứ Tư",
+          "word_examples": [
+            "Wednesday"
+          ]
+        },
+        {
+          "name": "Thursday",
+          "desc": "thứ Năm",
+          "word_examples": [
+            "Thursday"
+          ]
+        },
+        {
+          "name": "Friday",
+          "desc": "thứ Sáu",
+          "word_examples": [
+            "Friday"
+          ]
+        },
+        {
+          "name": "Saturday",
+          "desc": "thứ Bảy",
+          "word_examples": [
+            "Saturday"
+          ]
+        },
+        {
+          "name": "Sunday",
+          "desc": "Chủ nhật",
+          "word_examples": [
+            "Sunday"
+          ]
+        },
+        {
+          "name": "morning",
+          "desc": "buổi sáng",
+          "word_examples": [
+            "morning",
+            "mornings"
+          ]
+        },
+        {
+          "name": "afternoon",
+          "desc": "buổi chiều",
+          "word_examples": [
+            "afternoon",
+            "afternoons"
+          ]
+        },
+        {
+          "name": "evening",
+          "desc": "buổi tối",
+          "word_examples": [
+            "evening",
+            "evenings"
+          ]
+        },
+        {
+          "name": "night",
+          "desc": "ban đêm",
+          "word_examples": [
+            "night",
+            "nights"
+          ]
+        },
+        {
+          "name": "today",
+          "desc": "hôm nay",
+          "word_examples": [
+            "today"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adjectives",
+      "description": "Tính từ cơ bản, dễ dùng.",
+      "items": [
+        {
+          "name": "big",
+          "desc": "to",
+          "word_examples": [
+            "big",
+            "bigger",
+            "biggest"
+          ]
+        },
+        {
+          "name": "small",
+          "desc": "nhỏ",
+          "word_examples": [
+            "small",
+            "smaller",
+            "smallest"
+          ]
+        },
+        {
+          "name": "long",
+          "desc": "dài",
+          "word_examples": [
+            "long",
+            "longer",
+            "longest"
+          ]
+        },
+        {
+          "name": "short",
+          "desc": "ngắn/thấp",
+          "word_examples": [
+            "short",
+            "shorter",
+            "shortest"
+          ]
+        },
+        {
+          "name": "tall",
+          "desc": "cao",
+          "word_examples": [
+            "tall",
+            "taller",
+            "tallest"
+          ]
+        },
+        {
+          "name": "new",
+          "desc": "mới",
+          "word_examples": [
+            "new",
+            "newer",
+            "newest"
+          ]
+        },
+        {
+          "name": "old",
+          "desc": "cũ/già",
+          "word_examples": [
+            "old",
+            "older",
+            "oldest"
+          ]
+        },
+        {
+          "name": "good",
+          "desc": "tốt",
+          "word_examples": [
+            "good",
+            "better",
+            "best"
+          ]
+        },
+        {
+          "name": "bad",
+          "desc": "xấu",
+          "word_examples": [
+            "bad",
+            "worse",
+            "worst"
+          ]
+        },
+        {
+          "name": "happy",
+          "desc": "vui",
+          "word_examples": [
+            "happy",
+            "happier",
+            "happiest"
+          ]
+        },
+        {
+          "name": "sad",
+          "desc": "buồn",
+          "word_examples": [
+            "sad",
+            "sadder",
+            "saddest"
+          ]
+        },
+        {
+          "name": "clean",
+          "desc": "sạch",
+          "word_examples": [
+            "clean",
+            "cleaner",
+            "cleanest"
+          ]
+        }
+      ]
+    }
+  ]
+}

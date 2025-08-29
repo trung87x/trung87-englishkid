@@ -1,0 +1,82 @@
+[
+  {
+    "id": "w1",
+    "word": "cat",
+    "meaning_vi": "con mèo",
+    "pos": "noun",
+    "topics": ["animals"],
+    "tags": ["easy"]
+  },
+  {
+    "id": "w2",
+    "word": "dog",
+    "meaning_vi": "con chó",
+    "pos": "noun",
+    "topics": ["animals"],
+    "tags": ["easy"]
+  },
+  {
+    "id": "w3",
+    "word": "fish",
+    "meaning_vi": "con cá",
+    "pos": "noun",
+    "topics": ["animals"],
+    "tags": []
+  },
+  {
+    "id": "w4",
+    "word": "apple",
+    "meaning_vi": "quả táo",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": ["easy"]
+  },
+  {
+    "id": "w5",
+    "word": "banana",
+    "meaning_vi": "quả chuối",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": []
+  },
+  {
+    "id": "w6",
+    "word": "run",
+    "meaning_vi": "chạy",
+    "pos": "verb",
+    "topics": ["actions"],
+    "tags": []
+  },
+  {
+    "id": "w7",
+    "word": "eat",
+    "meaning_vi": "ăn",
+    "pos": "verb",
+    "topics": ["actions", "food"],
+    "tags": []
+  },
+  {
+    "id": "w8",
+    "word": "school",
+    "meaning_vi": "trường học",
+    "pos": "noun",
+    "topics": ["school"],
+    "tags": []
+  },
+  {
+    "id": "w9",
+    "word": "teacher",
+    "meaning_vi": "giáo viên",
+    "pos": "noun",
+    "topics": ["school"],
+    "tags": []
+  },
+  {
+    "id": "w10",
+    "word": "book",
+    "meaning_vi": "sách",
+    "pos": "noun",
+    "topics": ["school"],
+    "tags": []
+  }
+]
