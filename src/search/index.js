@@ -1,4 +1,5 @@
 import { normalize, lev1 } from "../utils/text.js";
+import { DB } from "../data/load.js";
 
 export function parseQuery(q) {
   const tokens = (q || "").trim().split(/\s+/).filter(Boolean);

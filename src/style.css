@@ -15,3 +15,25 @@ html {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
 }
+
+:root {
+  --radius: 0.5rem; /* rounded-lg */
+  --h-control: 2.25rem; /* h-9 */
+}
+.btn {
+  height: var(--h-control);
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius);
+}
+.input {
+  height: var(--h-control);
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  border-radius: var(--radius);
+  padding: 0 2rem 0 2.25rem;
+  background: #f8fafc;
+}
+.card {
+  background: #fff;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  border-radius: var(--radius);
+}
