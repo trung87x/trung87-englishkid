@@ -4,7 +4,7 @@ export const DB = { raw: [], words: [], topics: [], tags: [], pos: [] };
 export const INDEX = { byWord: new Map(), trie: {} };
 
 export async function loadData() {
-  const url = "./public/data/grade-1-full.json"; // adjust if needed
+  const url = "./data/grade-1-full.json"; // adjust if needed
   const res = await fetch(url, { cache: "no-cache" });
   if (!res.ok) throw new Error(`Không tải được ${url} (HTTP ${res.status})`);
   const data = await res.json();
