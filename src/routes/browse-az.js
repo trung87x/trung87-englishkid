@@ -22,7 +22,7 @@ export function pageBrowseAZ() {
 
   // Container có padding phải để chừa chỗ cho thanh A-Z dọc
   const container = document.createElement("div");
-  container.className = "relative"; // chừa chỗ cho nav dọc
+  container.className = "relative pr-14"; // chừa chỗ cho nav dọc
   root.appendChild(container);
 
   // A-Z dọc
@@ -32,7 +32,7 @@ export function pageBrowseAZ() {
 
   const rail = document.createElement("div");
   // đặt rail ở mép phải, bọc lấy phần sticky bên trong
-  rail.className = "fixed right-4 top-40 h-full";
+  rail.className = "absolute right-0 top-0 h-full";
   const nav = document.createElement("div");
   nav.className = "flex flex-col gap-1 sticky";
   const baseBtn =
@@ -60,7 +60,7 @@ export function pageBrowseAZ() {
 
   // Khu vực list
   const listZone = document.createElement("div");
-  listZone.className = "px-12"; // thêm chút khoảng cách với nav
+  listZone.className = "pr-2"; // thêm chút khoảng cách với nav
   container.appendChild(listZone);
 
   // Gõ tìm kiếm -> reset về "Tất cả"
