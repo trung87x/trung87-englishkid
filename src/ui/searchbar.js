@@ -17,7 +17,7 @@ export function mountSearchBox(container) {
   container.innerHTML = `
 <div class="overlay">
   <div class="relative">
-    <input id="q" type="text" placeholder="Tìm EN/VI… hỗ trợ pos:, topic:, tag:"
+    <input id="q" type="text" autocomplete="off" placeholder="Tìm EN/VI… hỗ trợ pos:, topic:, tag:"
       class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500"/>
     <div id="ac" class="absolute mt-1 left-0 right-0 hidden rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-lg max-h-80 overflow-auto"></div>
   </div>
