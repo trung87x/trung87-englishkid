@@ -60,7 +60,7 @@ export function pageBrowseAZ() {
 
   // Khu vực list
   const listZone = document.createElement("div");
-  listZone.className = "px-14"; // thêm chút khoảng cách với nav
+  listZone.className = "px-12"; // thêm chút khoảng cách với nav
   container.appendChild(listZone);
 
   // Gõ tìm kiếm -> reset về "Tất cả"
