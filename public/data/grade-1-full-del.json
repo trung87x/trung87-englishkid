@@ -1,0 +1,5434 @@
+[
+  {
+    "id": "h1",
+    "word": "the",
+    "meaning_vi": "(mạo từ xác định)",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h2",
+    "word": "a",
+    "meaning_vi": "(mạo từ không xác định)",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h3",
+    "word": "an",
+    "meaning_vi": "(mạo từ không xác định)",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h4",
+    "word": "this",
+    "meaning_vi": "này",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h5",
+    "word": "that",
+    "meaning_vi": "kia",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h6",
+    "word": "these",
+    "meaning_vi": "những ... này",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h7",
+    "word": "those",
+    "meaning_vi": "những ... kia",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h8",
+    "word": "some",
+    "meaning_vi": "một vài",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h9",
+    "word": "any",
+    "meaning_vi": "bất kỳ",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h10",
+    "word": "each",
+    "meaning_vi": "mỗi",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h11",
+    "word": "every",
+    "meaning_vi": "mọi, mỗi",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h12",
+    "word": "either",
+    "meaning_vi": "một trong hai",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h13",
+    "word": "neither",
+    "meaning_vi": "không cái nào trong hai",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h14",
+    "word": "another",
+    "meaning_vi": "khác, thêm một",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h15",
+    "word": "other",
+    "meaning_vi": "khác",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h16",
+    "word": "such",
+    "meaning_vi": "như vậy, như thế",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h17",
+    "word": "own",
+    "meaning_vi": "của riêng",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h18",
+    "word": "same",
+    "meaning_vi": "giống nhau",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h19",
+    "word": "much",
+    "meaning_vi": "nhiều (không đếm được)",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h20",
+    "word": "many",
+    "meaning_vi": "nhiều (đếm được)",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h21",
+    "word": "more",
+    "meaning_vi": "nhiều hơn",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h22",
+    "word": "most",
+    "meaning_vi": "nhiều nhất",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h23",
+    "word": "little",
+    "meaning_vi": "ít (không đếm được)",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h24",
+    "word": "few",
+    "meaning_vi": "ít (đếm được)",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h25",
+    "word": "several",
+    "meaning_vi": "vài, một số",
+    "pos": "determiner",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h26",
+    "word": "I",
+    "meaning_vi": "tôi",
+    "pos": "pronoun",
+    "topics": ["function", "people"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h27",
+    "word": "you",
+    "meaning_vi": "bạn/anh/chị",
+    "pos": "pronoun",
+    "topics": ["function", "people"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h28",
+    "word": "he",
+    "meaning_vi": "anh ấy",
+    "pos": "pronoun",
+    "topics": ["function", "people"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h29",
+    "word": "she",
+    "meaning_vi": "cô ấy",
+    "pos": "pronoun",
+    "topics": ["function", "people"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h30",
+    "word": "it",
+    "meaning_vi": "nó",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h31",
+    "word": "we",
+    "meaning_vi": "chúng tôi",
+    "pos": "pronoun",
+    "topics": ["function", "people"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h32",
+    "word": "they",
+    "meaning_vi": "họ",
+    "pos": "pronoun",
+    "topics": ["function", "people"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h33",
+    "word": "me",
+    "meaning_vi": "tôi (tân ngữ)",
+    "pos": "pronoun",
+    "topics": ["function", "people"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h34",
+    "word": "him",
+    "meaning_vi": "anh ấy (tân ngữ)",
+    "pos": "pronoun",
+    "topics": ["function", "people"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h35",
+    "word": "her",
+    "meaning_vi": "cô ấy (tân ngữ)",
+    "pos": "pronoun",
+    "topics": ["function", "people"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h36",
+    "word": "us",
+    "meaning_vi": "chúng tôi (tân ngữ)",
+    "pos": "pronoun",
+    "topics": ["function", "people"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h37",
+    "word": "them",
+    "meaning_vi": "họ (tân ngữ)",
+    "pos": "pronoun",
+    "topics": ["function", "people"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h38",
+    "word": "my",
+    "meaning_vi": "của tôi",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h39",
+    "word": "your",
+    "meaning_vi": "của bạn",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h40",
+    "word": "his",
+    "meaning_vi": "của anh ấy",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h41",
+    "word": "her (poss.)",
+    "meaning_vi": "của cô ấy",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h42",
+    "word": "its",
+    "meaning_vi": "của nó",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h43",
+    "word": "our",
+    "meaning_vi": "của chúng tôi",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h44",
+    "word": "their",
+    "meaning_vi": "của họ",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h45",
+    "word": "mine",
+    "meaning_vi": "của tôi (đại từ sở hữu)",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h46",
+    "word": "yours",
+    "meaning_vi": "của bạn",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h47",
+    "word": "hers",
+    "meaning_vi": "của cô ấy",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h48",
+    "word": "ours",
+    "meaning_vi": "của chúng tôi",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h49",
+    "word": "theirs",
+    "meaning_vi": "của họ",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h50",
+    "word": "myself",
+    "meaning_vi": "bản thân tôi",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h51",
+    "word": "yourself",
+    "meaning_vi": "bản thân bạn",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h52",
+    "word": "himself",
+    "meaning_vi": "bản thân anh ấy",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h53",
+    "word": "herself",
+    "meaning_vi": "bản thân cô ấy",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h54",
+    "word": "itself",
+    "meaning_vi": "bản thân nó",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h55",
+    "word": "ourselves",
+    "meaning_vi": "bản thân chúng tôi",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h56",
+    "word": "yourselves",
+    "meaning_vi": "bản thân các bạn",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h57",
+    "word": "themselves",
+    "meaning_vi": "bản thân họ",
+    "pos": "pronoun",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h58",
+    "word": "who",
+    "meaning_vi": "ai",
+    "pos": "pronoun",
+    "topics": ["function", "question"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h59",
+    "word": "whom",
+    "meaning_vi": "ai (tân ngữ)",
+    "pos": "pronoun",
+    "topics": ["function", "question"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h60",
+    "word": "whose",
+    "meaning_vi": "của ai",
+    "pos": "pronoun",
+    "topics": ["function", "question"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h61",
+    "word": "which",
+    "meaning_vi": "cái nào",
+    "pos": "pronoun",
+    "topics": ["function", "question"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h62",
+    "word": "be",
+    "meaning_vi": "thì, là, ở",
+    "pos": "verb",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h63",
+    "word": "am",
+    "meaning_vi": "là (ngôi I)",
+    "pos": "verb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h64",
+    "word": "is",
+    "meaning_vi": "là (ngôi he/she/it)",
+    "pos": "verb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h65",
+    "word": "are",
+    "meaning_vi": "là (số nhiều/you)",
+    "pos": "verb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h66",
+    "word": "was",
+    "meaning_vi": "đã là/ở (quá khứ số ít)",
+    "pos": "verb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h67",
+    "word": "were",
+    "meaning_vi": "đã là/ở (quá khứ số nhiều/you)",
+    "pos": "verb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h68",
+    "word": "been",
+    "meaning_vi": "đã (phân từ be)",
+    "pos": "verb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h69",
+    "word": "being",
+    "meaning_vi": "đang (dạng -ing của be)",
+    "pos": "verb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h70",
+    "word": "have",
+    "meaning_vi": "có/đã",
+    "pos": "verb",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h71",
+    "word": "has",
+    "meaning_vi": "có (ngôi he/she/it)",
+    "pos": "verb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h72",
+    "word": "had",
+    "meaning_vi": "đã có",
+    "pos": "verb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h73",
+    "word": "do",
+    "meaning_vi": "làm; trợ động từ",
+    "pos": "verb",
+    "topics": ["function", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h74",
+    "word": "does",
+    "meaning_vi": "trợ động từ (ngôi he/she/it)",
+    "pos": "verb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h75",
+    "word": "did",
+    "meaning_vi": "đã làm (quá khứ)",
+    "pos": "verb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h76",
+    "word": "done",
+    "meaning_vi": "đã làm (phân từ)",
+    "pos": "verb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h77",
+    "word": "doing",
+    "meaning_vi": "đang làm",
+    "pos": "verb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h78",
+    "word": "will",
+    "meaning_vi": "sẽ",
+    "pos": "modal",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h79",
+    "word": "would",
+    "meaning_vi": "sẽ (giả định)",
+    "pos": "modal",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h80",
+    "word": "can",
+    "meaning_vi": "có thể",
+    "pos": "modal",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h81",
+    "word": "could",
+    "meaning_vi": "có thể (quá khứ/dự đoán)",
+    "pos": "modal",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h82",
+    "word": "may",
+    "meaning_vi": "có thể (khả năng)",
+    "pos": "modal",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h83",
+    "word": "might",
+    "meaning_vi": "có thể (ít chắc)",
+    "pos": "modal",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h84",
+    "word": "must",
+    "meaning_vi": "phải",
+    "pos": "modal",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h85",
+    "word": "should",
+    "meaning_vi": "nên",
+    "pos": "modal",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h86",
+    "word": "shall",
+    "meaning_vi": "sẽ (trang trọng)",
+    "pos": "modal",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h87",
+    "word": "ought to",
+    "meaning_vi": "nên",
+    "pos": "modal",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h88",
+    "word": "say",
+    "meaning_vi": "nói",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h89",
+    "word": "get",
+    "meaning_vi": "nhận/được",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h90",
+    "word": "make",
+    "meaning_vi": "làm/ tạo",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h91",
+    "word": "go",
+    "meaning_vi": "đi",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h92",
+    "word": "know",
+    "meaning_vi": "biết",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h93",
+    "word": "take",
+    "meaning_vi": "lấy/đưa",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h94",
+    "word": "see",
+    "meaning_vi": "thấy",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h95",
+    "word": "come",
+    "meaning_vi": "đến",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h96",
+    "word": "think",
+    "meaning_vi": "nghĩ",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h97",
+    "word": "look",
+    "meaning_vi": "nhìn",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h98",
+    "word": "want",
+    "meaning_vi": "muốn",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h99",
+    "word": "give",
+    "meaning_vi": "cho/đưa",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h100",
+    "word": "use",
+    "meaning_vi": "dùng",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h101",
+    "word": "find",
+    "meaning_vi": "tìm thấy",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h102",
+    "word": "tell",
+    "meaning_vi": "kể/bảo",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h103",
+    "word": "ask",
+    "meaning_vi": "hỏi/yêu cầu",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h104",
+    "word": "work",
+    "meaning_vi": "làm việc",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h105",
+    "word": "seem",
+    "meaning_vi": "dường như",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h106",
+    "word": "feel",
+    "meaning_vi": "cảm thấy",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h107",
+    "word": "try",
+    "meaning_vi": "thử/cố gắng",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h108",
+    "word": "leave",
+    "meaning_vi": "rời đi",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h109",
+    "word": "call",
+    "meaning_vi": "gọi",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h110",
+    "word": "need",
+    "meaning_vi": "cần",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h111",
+    "word": "become",
+    "meaning_vi": "trở thành",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h112",
+    "word": "put",
+    "meaning_vi": "đặt/để",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h113",
+    "word": "mean",
+    "meaning_vi": "có nghĩa",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h114",
+    "word": "keep",
+    "meaning_vi": "giữ",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h115",
+    "word": "let",
+    "meaning_vi": "để/cho phép",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h116",
+    "word": "begin",
+    "meaning_vi": "bắt đầu",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h117",
+    "word": "help",
+    "meaning_vi": "giúp",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h118",
+    "word": "turn",
+    "meaning_vi": "quay/ chuyển",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h119",
+    "word": "start",
+    "meaning_vi": "bắt đầu",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h120",
+    "word": "show",
+    "meaning_vi": "cho thấy",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h121",
+    "word": "hear",
+    "meaning_vi": "nghe",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h122",
+    "word": "play",
+    "meaning_vi": "chơi",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h123",
+    "word": "run",
+    "meaning_vi": "chạy",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h124",
+    "word": "move",
+    "meaning_vi": "di chuyển",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h125",
+    "word": "like",
+    "meaning_vi": "thích",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h126",
+    "word": "live",
+    "meaning_vi": "sống",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h127",
+    "word": "believe",
+    "meaning_vi": "tin",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h128",
+    "word": "hold",
+    "meaning_vi": "cầm/nắm",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h129",
+    "word": "bring",
+    "meaning_vi": "mang đến",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h130",
+    "word": "happen",
+    "meaning_vi": "xảy ra",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h131",
+    "word": "write",
+    "meaning_vi": "viết",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h132",
+    "word": "provide",
+    "meaning_vi": "cung cấp",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h133",
+    "word": "sit",
+    "meaning_vi": "ngồi",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h134",
+    "word": "stand",
+    "meaning_vi": "đứng",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h135",
+    "word": "lose",
+    "meaning_vi": "mất/thua",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h136",
+    "word": "pay",
+    "meaning_vi": "trả",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h137",
+    "word": "meet",
+    "meaning_vi": "gặp",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h138",
+    "word": "include",
+    "meaning_vi": "bao gồm",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h139",
+    "word": "continue",
+    "meaning_vi": "tiếp tục",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h140",
+    "word": "set",
+    "meaning_vi": "đặt/thiết lập",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h141",
+    "word": "learn",
+    "meaning_vi": "học",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h142",
+    "word": "change",
+    "meaning_vi": "thay đổi",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h143",
+    "word": "lead",
+    "meaning_vi": "dẫn dắt",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h144",
+    "word": "understand",
+    "meaning_vi": "hiểu",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h145",
+    "word": "watch",
+    "meaning_vi": "xem",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h146",
+    "word": "follow",
+    "meaning_vi": "theo dõi",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h147",
+    "word": "stop",
+    "meaning_vi": "dừng",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h148",
+    "word": "create",
+    "meaning_vi": "tạo ra",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h149",
+    "word": "speak",
+    "meaning_vi": "nói",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h150",
+    "word": "read",
+    "meaning_vi": "đọc",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h151",
+    "word": "allow",
+    "meaning_vi": "cho phép",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h152",
+    "word": "add",
+    "meaning_vi": "thêm",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h153",
+    "word": "spend",
+    "meaning_vi": "tiêu/dành",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h154",
+    "word": "grow",
+    "meaning_vi": "phát triển/lớn lên",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h155",
+    "word": "open",
+    "meaning_vi": "mở",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h156",
+    "word": "walk",
+    "meaning_vi": "đi bộ",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h157",
+    "word": "win",
+    "meaning_vi": "thắng",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h158",
+    "word": "offer",
+    "meaning_vi": "đề nghị",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h159",
+    "word": "remember",
+    "meaning_vi": "nhớ",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h160",
+    "word": "love",
+    "meaning_vi": "yêu",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h161",
+    "word": "consider",
+    "meaning_vi": "cân nhắc",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h162",
+    "word": "appear",
+    "meaning_vi": "xuất hiện",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h163",
+    "word": "buy",
+    "meaning_vi": "mua",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h164",
+    "word": "wait",
+    "meaning_vi": "chờ",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h165",
+    "word": "serve",
+    "meaning_vi": "phục vụ",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h166",
+    "word": "die",
+    "meaning_vi": "chết",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h167",
+    "word": "send",
+    "meaning_vi": "gửi",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h168",
+    "word": "expect",
+    "meaning_vi": "mong đợi",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h169",
+    "word": "build",
+    "meaning_vi": "xây dựng",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h170",
+    "word": "stay",
+    "meaning_vi": "ở lại",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h171",
+    "word": "fall",
+    "meaning_vi": "ngã/rơi",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h172",
+    "word": "cut",
+    "meaning_vi": "cắt",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h173",
+    "word": "reach",
+    "meaning_vi": "đạt tới",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h174",
+    "word": "kill",
+    "meaning_vi": "giết",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h175",
+    "word": "remain",
+    "meaning_vi": "vẫn/ở lại",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h176",
+    "word": "plan",
+    "meaning_vi": "lên kế hoạch",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h177",
+    "word": "hope",
+    "meaning_vi": "hy vọng",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h178",
+    "word": "agree",
+    "meaning_vi": "đồng ý",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h179",
+    "word": "decide",
+    "meaning_vi": "quyết định",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h180",
+    "word": "explain",
+    "meaning_vi": "giải thích",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h181",
+    "word": "return",
+    "meaning_vi": "trở lại",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h182",
+    "word": "develop",
+    "meaning_vi": "phát triển",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h183",
+    "word": "report",
+    "meaning_vi": "báo cáo",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h184",
+    "word": "carry",
+    "meaning_vi": "mang",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h185",
+    "word": "break",
+    "meaning_vi": "phá vỡ",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h186",
+    "word": "receive",
+    "meaning_vi": "nhận",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h187",
+    "word": "support",
+    "meaning_vi": "hỗ trợ",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h188",
+    "word": "produce",
+    "meaning_vi": "sản xuất",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h189",
+    "word": "eat",
+    "meaning_vi": "ăn",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h190",
+    "word": "drink",
+    "meaning_vi": "uống",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h191",
+    "word": "cook",
+    "meaning_vi": "nấu",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h192",
+    "word": "drive",
+    "meaning_vi": "lái",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h193",
+    "word": "ride",
+    "meaning_vi": "cưỡi/đi (xe)",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h194",
+    "word": "wash",
+    "meaning_vi": "rửa",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h195",
+    "word": "clean",
+    "meaning_vi": "dọn/clean",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h196",
+    "word": "smile",
+    "meaning_vi": "mỉm cười",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h197",
+    "word": "cry",
+    "meaning_vi": "khóc",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h198",
+    "word": "laugh",
+    "meaning_vi": "cười",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h199",
+    "word": "wear",
+    "meaning_vi": "mặc/đeo",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h200",
+    "word": "choose",
+    "meaning_vi": "chọn",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h201",
+    "word": "arrive",
+    "meaning_vi": "đến",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h202",
+    "word": "travel",
+    "meaning_vi": "du lịch",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h203",
+    "word": "sleep",
+    "meaning_vi": "ngủ",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h204",
+    "word": "dream",
+    "meaning_vi": "mơ",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h205",
+    "word": "study",
+    "meaning_vi": "học",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h206",
+    "word": "teach",
+    "meaning_vi": "dạy",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h207",
+    "word": "listen",
+    "meaning_vi": "lắng nghe",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h208",
+    "word": "talk",
+    "meaning_vi": "nói chuyện",
+    "pos": "verb",
+    "topics": ["actions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h209",
+    "word": "look for",
+    "meaning_vi": "tìm kiếm",
+    "pos": "verb",
+    "topics": ["actions", "core", "phrasal-verb"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h210",
+    "word": "look after",
+    "meaning_vi": "chăm sóc",
+    "pos": "verb",
+    "topics": ["actions", "core", "phrasal-verb"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h211",
+    "word": "think about",
+    "meaning_vi": "suy nghĩ về",
+    "pos": "verb",
+    "topics": ["actions", "core", "phrasal-verb"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h212",
+    "word": "depend on",
+    "meaning_vi": "phụ thuộc vào",
+    "pos": "verb",
+    "topics": ["actions", "core", "phrasal-verb"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h213",
+    "word": "belong to",
+    "meaning_vi": "thuộc về",
+    "pos": "verb",
+    "topics": ["actions", "core", "phrasal-verb"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h214",
+    "word": "believe in",
+    "meaning_vi": "tin vào",
+    "pos": "verb",
+    "topics": ["actions", "core", "phrasal-verb"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h215",
+    "word": "pay for",
+    "meaning_vi": "trả cho",
+    "pos": "verb",
+    "topics": ["actions", "core", "phrasal-verb"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h216",
+    "word": "wait for",
+    "meaning_vi": "chờ",
+    "pos": "verb",
+    "topics": ["actions", "core", "phrasal-verb"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h217",
+    "word": "care about",
+    "meaning_vi": "quan tâm đến",
+    "pos": "verb",
+    "topics": ["actions", "core", "phrasal-verb"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h218",
+    "word": "work on",
+    "meaning_vi": "làm về/làm trên",
+    "pos": "verb",
+    "topics": ["actions", "core", "phrasal-verb"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h219",
+    "word": "in",
+    "meaning_vi": "trong/ở trong",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h220",
+    "word": "on",
+    "meaning_vi": "trên",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h221",
+    "word": "at",
+    "meaning_vi": "ở/tại",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h222",
+    "word": "by",
+    "meaning_vi": "bởi; bằng",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h223",
+    "word": "for",
+    "meaning_vi": "cho; trong (khoảng)",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h224",
+    "word": "with",
+    "meaning_vi": "với/cùng",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h225",
+    "word": "about",
+    "meaning_vi": "về",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h226",
+    "word": "against",
+    "meaning_vi": "chống lại",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h227",
+    "word": "between",
+    "meaning_vi": "giữa (hai)",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h228",
+    "word": "among",
+    "meaning_vi": "giữa (nhiều)",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h229",
+    "word": "into",
+    "meaning_vi": "vào trong",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h230",
+    "word": "through",
+    "meaning_vi": "xuyên qua",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h231",
+    "word": "during",
+    "meaning_vi": "trong suốt",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h232",
+    "word": "before",
+    "meaning_vi": "trước khi",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h233",
+    "word": "after",
+    "meaning_vi": "sau khi",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h234",
+    "word": "above",
+    "meaning_vi": "ở trên",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h235",
+    "word": "below",
+    "meaning_vi": "bên dưới",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h236",
+    "word": "over",
+    "meaning_vi": "trên/qua",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h237",
+    "word": "under",
+    "meaning_vi": "dưới",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h238",
+    "word": "from",
+    "meaning_vi": "từ",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h239",
+    "word": "to",
+    "meaning_vi": "đến; tới",
+    "pos": "preposition",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h240",
+    "word": "out",
+    "meaning_vi": "ra/ngoài",
+    "pos": "adverb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h241",
+    "word": "up",
+    "meaning_vi": "lên",
+    "pos": "adverb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h242",
+    "word": "down",
+    "meaning_vi": "xuống",
+    "pos": "adverb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h243",
+    "word": "off",
+    "meaning_vi": "tắt/ra khỏi",
+    "pos": "adverb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h244",
+    "word": "here",
+    "meaning_vi": "ở đây",
+    "pos": "adverb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h245",
+    "word": "there",
+    "meaning_vi": "ở đó",
+    "pos": "adverb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h246",
+    "word": "now",
+    "meaning_vi": "bây giờ",
+    "pos": "adverb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h247",
+    "word": "then",
+    "meaning_vi": "khi đó; rồi",
+    "pos": "adverb",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h248",
+    "word": "when",
+    "meaning_vi": "khi nào/khi",
+    "pos": "adverb",
+    "topics": ["function", "question"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h249",
+    "word": "where",
+    "meaning_vi": "ở đâu",
+    "pos": "adverb",
+    "topics": ["function", "question"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h250",
+    "word": "why",
+    "meaning_vi": "tại sao",
+    "pos": "adverb",
+    "topics": ["function", "question"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h251",
+    "word": "how",
+    "meaning_vi": "như thế nào",
+    "pos": "adverb",
+    "topics": ["function", "question"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h252",
+    "word": "and",
+    "meaning_vi": "và",
+    "pos": "conjunction",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h253",
+    "word": "but",
+    "meaning_vi": "nhưng",
+    "pos": "conjunction",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h254",
+    "word": "or",
+    "meaning_vi": "hoặc",
+    "pos": "conjunction",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h255",
+    "word": "so",
+    "meaning_vi": "vì vậy",
+    "pos": "conjunction",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h256",
+    "word": "because",
+    "meaning_vi": "bởi vì",
+    "pos": "conjunction",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h257",
+    "word": "although",
+    "meaning_vi": "mặc dù",
+    "pos": "conjunction",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h258",
+    "word": "though",
+    "meaning_vi": "mặc dù",
+    "pos": "conjunction",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h259",
+    "word": "while",
+    "meaning_vi": "trong khi",
+    "pos": "conjunction",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h260",
+    "word": "if",
+    "meaning_vi": "nếu",
+    "pos": "conjunction",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h261",
+    "word": "unless",
+    "meaning_vi": "trừ khi",
+    "pos": "conjunction",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h262",
+    "word": "since",
+    "meaning_vi": "từ khi; vì",
+    "pos": "conjunction",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h263",
+    "word": "as",
+    "meaning_vi": "khi; vì; như",
+    "pos": "conjunction",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h264",
+    "word": "until",
+    "meaning_vi": "cho đến khi",
+    "pos": "conjunction",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h265",
+    "word": "than",
+    "meaning_vi": "hơn (so sánh)",
+    "pos": "conjunction",
+    "topics": ["function"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h266",
+    "word": "time",
+    "meaning_vi": "thời gian",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h267",
+    "word": "person",
+    "meaning_vi": "người",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h268",
+    "word": "year",
+    "meaning_vi": "năm",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h269",
+    "word": "way",
+    "meaning_vi": "cách/đường",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h270",
+    "word": "day",
+    "meaning_vi": "ngày",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h271",
+    "word": "thing",
+    "meaning_vi": "điều/vật",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h272",
+    "word": "man",
+    "meaning_vi": "đàn ông",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h273",
+    "word": "world",
+    "meaning_vi": "thế giới",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h274",
+    "word": "life",
+    "meaning_vi": "cuộc sống",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h275",
+    "word": "hand",
+    "meaning_vi": "bàn tay",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h276",
+    "word": "part",
+    "meaning_vi": "phần/bộ phận",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h277",
+    "word": "child",
+    "meaning_vi": "đứa trẻ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h278",
+    "word": "eye",
+    "meaning_vi": "mắt",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h279",
+    "word": "woman",
+    "meaning_vi": "phụ nữ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h280",
+    "word": "place",
+    "meaning_vi": "nơi chốn",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h281",
+    "word": "week",
+    "meaning_vi": "tuần",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h282",
+    "word": "case",
+    "meaning_vi": "trường hợp",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h283",
+    "word": "point",
+    "meaning_vi": "điểm/ý",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h284",
+    "word": "government",
+    "meaning_vi": "chính phủ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h285",
+    "word": "company",
+    "meaning_vi": "công ty",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h286",
+    "word": "number",
+    "meaning_vi": "số",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h287",
+    "word": "group",
+    "meaning_vi": "nhóm",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h288",
+    "word": "problem",
+    "meaning_vi": "vấn đề",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h289",
+    "word": "fact",
+    "meaning_vi": "sự thật",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h290",
+    "word": "home",
+    "meaning_vi": "nhà",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h291",
+    "word": "room",
+    "meaning_vi": "phòng",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h292",
+    "word": "area",
+    "meaning_vi": "khu vực",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h293",
+    "word": "money",
+    "meaning_vi": "tiền",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h294",
+    "word": "story",
+    "meaning_vi": "câu chuyện",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h295",
+    "word": "issue",
+    "meaning_vi": "vấn đề",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h296",
+    "word": "side",
+    "meaning_vi": "bên/phía",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h297",
+    "word": "kind",
+    "meaning_vi": "loại",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h298",
+    "word": "head",
+    "meaning_vi": "đầu",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h299",
+    "word": "house",
+    "meaning_vi": "ngôi nhà",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h300",
+    "word": "service",
+    "meaning_vi": "dịch vụ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h301",
+    "word": "friend",
+    "meaning_vi": "bạn bè",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h302",
+    "word": "father",
+    "meaning_vi": "cha",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h303",
+    "word": "mother",
+    "meaning_vi": "mẹ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h304",
+    "word": "family",
+    "meaning_vi": "gia đình",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h305",
+    "word": "power",
+    "meaning_vi": "sức mạnh/nguồn điện",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h306",
+    "word": "hour",
+    "meaning_vi": "giờ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h307",
+    "word": "game",
+    "meaning_vi": "trò chơi",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h308",
+    "word": "line",
+    "meaning_vi": "dòng/đường",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h309",
+    "word": "end",
+    "meaning_vi": "kết thúc",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h310",
+    "word": "member",
+    "meaning_vi": "thành viên",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h311",
+    "word": "law",
+    "meaning_vi": "luật",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h312",
+    "word": "car",
+    "meaning_vi": "xe hơi",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h313",
+    "word": "city",
+    "meaning_vi": "thành phố",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h314",
+    "word": "community",
+    "meaning_vi": "cộng đồng",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h315",
+    "word": "name",
+    "meaning_vi": "tên",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h316",
+    "word": "team",
+    "meaning_vi": "đội/nhóm",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h317",
+    "word": "minute",
+    "meaning_vi": "phút",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h318",
+    "word": "idea",
+    "meaning_vi": "ý tưởng",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h319",
+    "word": "kid",
+    "meaning_vi": "trẻ con",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h320",
+    "word": "body",
+    "meaning_vi": "cơ thể",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h321",
+    "word": "information",
+    "meaning_vi": "thông tin",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h322",
+    "word": "back",
+    "meaning_vi": "lưng/phía sau",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h323",
+    "word": "parent",
+    "meaning_vi": "phụ huynh",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h324",
+    "word": "face",
+    "meaning_vi": "khuôn mặt",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h325",
+    "word": "others",
+    "meaning_vi": "những người khác",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h326",
+    "word": "level",
+    "meaning_vi": "mức độ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h327",
+    "word": "office",
+    "meaning_vi": "văn phòng",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h328",
+    "word": "door",
+    "meaning_vi": "cửa",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h329",
+    "word": "window",
+    "meaning_vi": "cửa sổ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h330",
+    "word": "table",
+    "meaning_vi": "bàn",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h331",
+    "word": "chair",
+    "meaning_vi": "ghế",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h332",
+    "word": "bed",
+    "meaning_vi": "giường",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h333",
+    "word": "bag",
+    "meaning_vi": "túi",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h334",
+    "word": "phone",
+    "meaning_vi": "điện thoại",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h335",
+    "word": "computer",
+    "meaning_vi": "máy tính",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h336",
+    "word": "screen",
+    "meaning_vi": "màn hình",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h337",
+    "word": "keyboard",
+    "meaning_vi": "bàn phím",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h338",
+    "word": "mouse",
+    "meaning_vi": "chuột",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h339",
+    "word": "paper",
+    "meaning_vi": "giấy",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h340",
+    "word": "pen",
+    "meaning_vi": "bút",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h341",
+    "word": "pencil",
+    "meaning_vi": "bút chì",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h342",
+    "word": "book",
+    "meaning_vi": "sách",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h343",
+    "word": "school",
+    "meaning_vi": "trường học",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h344",
+    "word": "student",
+    "meaning_vi": "học sinh",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h345",
+    "word": "teacher",
+    "meaning_vi": "giáo viên",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h346",
+    "word": "class",
+    "meaning_vi": "lớp",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h347",
+    "word": "subject",
+    "meaning_vi": "môn học",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h348",
+    "word": "question",
+    "meaning_vi": "câu hỏi",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h349",
+    "word": "answer",
+    "meaning_vi": "câu trả lời",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h350",
+    "word": "solution",
+    "meaning_vi": "giải pháp",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h351",
+    "word": "water",
+    "meaning_vi": "nước",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h352",
+    "word": "food",
+    "meaning_vi": "thức ăn",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h353",
+    "word": "air",
+    "meaning_vi": "không khí",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h354",
+    "word": "fire",
+    "meaning_vi": "lửa",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h355",
+    "word": "earth",
+    "meaning_vi": "trái đất/đất",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h356",
+    "word": "light",
+    "meaning_vi": "ánh sáng",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h357",
+    "word": "sound",
+    "meaning_vi": "âm thanh",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h358",
+    "word": "heat",
+    "meaning_vi": "nhiệt",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h359",
+    "word": "energy",
+    "meaning_vi": "năng lượng",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h360",
+    "word": "music",
+    "meaning_vi": "âm nhạc",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h361",
+    "word": "movie",
+    "meaning_vi": "phim",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h362",
+    "word": "picture",
+    "meaning_vi": "hình ảnh",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h363",
+    "word": "photo",
+    "meaning_vi": "ảnh",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h364",
+    "word": "art",
+    "meaning_vi": "nghệ thuật",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h365",
+    "word": "letter",
+    "meaning_vi": "thư/chữ cái",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h366",
+    "word": "email",
+    "meaning_vi": "email",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h367",
+    "word": "message",
+    "meaning_vi": "tin nhắn",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h368",
+    "word": "language",
+    "meaning_vi": "ngôn ngữ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h369",
+    "word": "word",
+    "meaning_vi": "từ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h370",
+    "word": "sentence",
+    "meaning_vi": "câu",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h371",
+    "word": "paragraph",
+    "meaning_vi": "đoạn văn",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h372",
+    "word": "history",
+    "meaning_vi": "lịch sử",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h373",
+    "word": "science",
+    "meaning_vi": "khoa học",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h374",
+    "word": "math",
+    "meaning_vi": "toán",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h375",
+    "word": "map",
+    "meaning_vi": "bản đồ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h376",
+    "word": "test",
+    "meaning_vi": "bài kiểm tra",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h377",
+    "word": "exam",
+    "meaning_vi": "kỳ thi",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h378",
+    "word": "score",
+    "meaning_vi": "điểm số",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h379",
+    "word": "result",
+    "meaning_vi": "kết quả",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h380",
+    "word": "rule",
+    "meaning_vi": "quy tắc",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h381",
+    "word": "example",
+    "meaning_vi": "ví dụ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h382",
+    "word": "childhood",
+    "meaning_vi": "tuổi thơ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h383",
+    "word": "future",
+    "meaning_vi": "tương lai",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h384",
+    "word": "past",
+    "meaning_vi": "quá khứ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h385",
+    "word": "present",
+    "meaning_vi": "hiện tại",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h386",
+    "word": "morning",
+    "meaning_vi": "buổi sáng",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h387",
+    "word": "afternoon",
+    "meaning_vi": "buổi chiều",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h388",
+    "word": "evening",
+    "meaning_vi": "buổi tối",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h389",
+    "word": "night",
+    "meaning_vi": "ban đêm",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h390",
+    "word": "today",
+    "meaning_vi": "hôm nay",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h391",
+    "word": "yesterday",
+    "meaning_vi": "hôm qua",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h392",
+    "word": "tomorrow",
+    "meaning_vi": "ngày mai",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h393",
+    "word": "weekend",
+    "meaning_vi": "cuối tuần",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h394",
+    "word": "holiday",
+    "meaning_vi": "ngày nghỉ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h395",
+    "word": "birthday",
+    "meaning_vi": "sinh nhật",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h396",
+    "word": "spring",
+    "meaning_vi": "mùa xuân",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h397",
+    "word": "summer",
+    "meaning_vi": "mùa hè",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h398",
+    "word": "autumn",
+    "meaning_vi": "mùa thu",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h399",
+    "word": "winter",
+    "meaning_vi": "mùa đông",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h400",
+    "word": "rain",
+    "meaning_vi": "mưa",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h401",
+    "word": "sun",
+    "meaning_vi": "mặt trời",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h402",
+    "word": "snow",
+    "meaning_vi": "tuyết",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h403",
+    "word": "wind",
+    "meaning_vi": "gió",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h404",
+    "word": "cloud",
+    "meaning_vi": "mây",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h405",
+    "word": "river",
+    "meaning_vi": "sông",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h406",
+    "word": "sea",
+    "meaning_vi": "biển",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h407",
+    "word": "ocean",
+    "meaning_vi": "đại dương",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h408",
+    "word": "lake",
+    "meaning_vi": "hồ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h409",
+    "word": "mountain",
+    "meaning_vi": "núi",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h410",
+    "word": "beach",
+    "meaning_vi": "bãi biển",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h411",
+    "word": "forest",
+    "meaning_vi": "khu rừng",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h412",
+    "word": "tree",
+    "meaning_vi": "cây",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h413",
+    "word": "flower",
+    "meaning_vi": "hoa",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h414",
+    "word": "grass",
+    "meaning_vi": "cỏ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h415",
+    "word": "leaf",
+    "meaning_vi": "lá",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h416",
+    "word": "stone",
+    "meaning_vi": "đá",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h417",
+    "word": "sand",
+    "meaning_vi": "cát",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h418",
+    "word": "soil",
+    "meaning_vi": "đất",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h419",
+    "word": "road",
+    "meaning_vi": "đường",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h420",
+    "word": "street",
+    "meaning_vi": "đường phố",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h421",
+    "word": "bridge",
+    "meaning_vi": "cầu",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h422",
+    "word": "traffic",
+    "meaning_vi": "giao thông",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h423",
+    "word": "bus",
+    "meaning_vi": "xe buýt",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h424",
+    "word": "train",
+    "meaning_vi": "tàu hỏa",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h425",
+    "word": "station",
+    "meaning_vi": "nhà ga",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h426",
+    "word": "airport",
+    "meaning_vi": "sân bay",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h427",
+    "word": "ticket",
+    "meaning_vi": "vé",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h428",
+    "word": "hotel",
+    "meaning_vi": "khách sạn",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h429",
+    "word": "restaurant",
+    "meaning_vi": "nhà hàng",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h430",
+    "word": "cafe",
+    "meaning_vi": "quán cà phê",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h431",
+    "word": "shop",
+    "meaning_vi": "cửa hàng",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h432",
+    "word": "market",
+    "meaning_vi": "chợ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h433",
+    "word": "supermarket",
+    "meaning_vi": "siêu thị",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h434",
+    "word": "bank",
+    "meaning_vi": "ngân hàng",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h435",
+    "word": "hospital",
+    "meaning_vi": "bệnh viện",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h436",
+    "word": "clinic",
+    "meaning_vi": "phòng khám",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h437",
+    "word": "medicine",
+    "meaning_vi": "thuốc",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h438",
+    "word": "doctor",
+    "meaning_vi": "bác sĩ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h439",
+    "word": "nurse",
+    "meaning_vi": "y tá",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h440",
+    "word": "patient",
+    "meaning_vi": "bệnh nhân",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h441",
+    "word": "pain",
+    "meaning_vi": "đau",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h442",
+    "word": "blood",
+    "meaning_vi": "máu",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h443",
+    "word": "tooth",
+    "meaning_vi": "răng",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h444",
+    "word": "heart",
+    "meaning_vi": "trái tim",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h445",
+    "word": "headache",
+    "meaning_vi": "đau đầu",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h446",
+    "word": "fever",
+    "meaning_vi": "sốt",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h447",
+    "word": "cold",
+    "meaning_vi": "cảm lạnh",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h448",
+    "word": "film",
+    "meaning_vi": "phim",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h449",
+    "word": "camera",
+    "meaning_vi": "máy ảnh",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h450",
+    "word": "TV",
+    "meaning_vi": "tivi",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h451",
+    "word": "radio",
+    "meaning_vi": "đài",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h452",
+    "word": "internet",
+    "meaning_vi": "internet",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h453",
+    "word": "website",
+    "meaning_vi": "trang web",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h454",
+    "word": "account",
+    "meaning_vi": "tài khoản",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h455",
+    "word": "password",
+    "meaning_vi": "mật khẩu",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h456",
+    "word": "app",
+    "meaning_vi": "ứng dụng",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h457",
+    "word": "news",
+    "meaning_vi": "tin tức",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h458",
+    "word": "agreement",
+    "meaning_vi": "thỏa thuận",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h459",
+    "word": "project",
+    "meaning_vi": "dự án",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h460",
+    "word": "meeting",
+    "meaning_vi": "cuộc họp",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h461",
+    "word": "task",
+    "meaning_vi": "nhiệm vụ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h462",
+    "word": "job",
+    "meaning_vi": "công việc",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h463",
+    "word": "workplace",
+    "meaning_vi": "nơi làm việc",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h464",
+    "word": "salary",
+    "meaning_vi": "lương",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h465",
+    "word": "career",
+    "meaning_vi": "sự nghiệp",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h466",
+    "word": "business",
+    "meaning_vi": "kinh doanh",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h467",
+    "word": "price",
+    "meaning_vi": "giá",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h468",
+    "word": "cost",
+    "meaning_vi": "chi phí",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h469",
+    "word": "tax",
+    "meaning_vi": "thuế",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h470",
+    "word": "budget",
+    "meaning_vi": "ngân sách",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h471",
+    "word": "card",
+    "meaning_vi": "thẻ",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h472",
+    "word": "cash",
+    "meaning_vi": "tiền mặt",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h473",
+    "word": "coin",
+    "meaning_vi": "đồng xu",
+    "pos": "noun",
+    "topics": ["core", "daily"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h474",
+    "word": "good",
+    "meaning_vi": "tốt",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h475",
+    "word": "new",
+    "meaning_vi": "mới",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h476",
+    "word": "first",
+    "meaning_vi": "đầu tiên",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h477",
+    "word": "last",
+    "meaning_vi": "cuối cùng",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h478",
+    "word": "long",
+    "meaning_vi": "dài",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h479",
+    "word": "great",
+    "meaning_vi": "tuyệt vời",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h480",
+    "word": "old",
+    "meaning_vi": "cũ",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h481",
+    "word": "right",
+    "meaning_vi": "đúng/bên phải",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h482",
+    "word": "big",
+    "meaning_vi": "to/lớn",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h483",
+    "word": "high",
+    "meaning_vi": "cao",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h484",
+    "word": "different",
+    "meaning_vi": "khác",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h485",
+    "word": "small",
+    "meaning_vi": "nhỏ",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h486",
+    "word": "large",
+    "meaning_vi": "lớn",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h487",
+    "word": "next",
+    "meaning_vi": "kế tiếp",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h488",
+    "word": "early",
+    "meaning_vi": "sớm",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h489",
+    "word": "young",
+    "meaning_vi": "trẻ",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h490",
+    "word": "important",
+    "meaning_vi": "quan trọng",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h491",
+    "word": "public",
+    "meaning_vi": "công cộng",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h492",
+    "word": "bad",
+    "meaning_vi": "xấu",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h493",
+    "word": "able",
+    "meaning_vi": "có thể",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h494",
+    "word": "real",
+    "meaning_vi": "thực",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h495",
+    "word": "only",
+    "meaning_vi": "duy nhất",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h496",
+    "word": "possible",
+    "meaning_vi": "có thể",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h497",
+    "word": "full",
+    "meaning_vi": "đầy",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h498",
+    "word": "special",
+    "meaning_vi": "đặc biệt",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h499",
+    "word": "clear",
+    "meaning_vi": "rõ ràng",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h500",
+    "word": "common",
+    "meaning_vi": "phổ biến",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h501",
+    "word": "certain",
+    "meaning_vi": "chắc chắn",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h502",
+    "word": "available",
+    "meaning_vi": "sẵn có",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h503",
+    "word": "short",
+    "meaning_vi": "ngắn",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h504",
+    "word": "single",
+    "meaning_vi": "đơn",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h505",
+    "word": "simple",
+    "meaning_vi": "đơn giản",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h506",
+    "word": "hard",
+    "meaning_vi": "khó/cứng",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h507",
+    "word": "strong",
+    "meaning_vi": "mạnh",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h508",
+    "word": "free",
+    "meaning_vi": "miễn phí/tự do",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h509",
+    "word": "true",
+    "meaning_vi": "đúng",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h510",
+    "word": "whole",
+    "meaning_vi": "toàn bộ",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h511",
+    "word": "low",
+    "meaning_vi": "thấp",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h512",
+    "word": "closed",
+    "meaning_vi": "đóng",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h513",
+    "word": "hot",
+    "meaning_vi": "nóng",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h514",
+    "word": "warm",
+    "meaning_vi": "ấm",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h515",
+    "word": "cool",
+    "meaning_vi": "mát",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h516",
+    "word": "late",
+    "meaning_vi": "trễ",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h517",
+    "word": "fast",
+    "meaning_vi": "nhanh",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h518",
+    "word": "slow",
+    "meaning_vi": "chậm",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h519",
+    "word": "safe",
+    "meaning_vi": "an toàn",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h520",
+    "word": "dangerous",
+    "meaning_vi": "nguy hiểm",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h521",
+    "word": "happy",
+    "meaning_vi": "hạnh phúc",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h522",
+    "word": "sad",
+    "meaning_vi": "buồn",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h523",
+    "word": "angry",
+    "meaning_vi": "tức giận",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h524",
+    "word": "tired",
+    "meaning_vi": "mệt",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h525",
+    "word": "hungry",
+    "meaning_vi": "đói",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h526",
+    "word": "thirsty",
+    "meaning_vi": "khát",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h527",
+    "word": "busy",
+    "meaning_vi": "bận",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h528",
+    "word": "dirty",
+    "meaning_vi": "bẩn",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h529",
+    "word": "rich",
+    "meaning_vi": "giàu",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h530",
+    "word": "poor",
+    "meaning_vi": "nghèo",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h531",
+    "word": "beautiful",
+    "meaning_vi": "đẹp",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h532",
+    "word": "ugly",
+    "meaning_vi": "xấu xí",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h533",
+    "word": "cheap",
+    "meaning_vi": "rẻ",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h534",
+    "word": "expensive",
+    "meaning_vi": "đắt",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h535",
+    "word": "ready",
+    "meaning_vi": "sẵn sàng",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h536",
+    "word": "difficult",
+    "meaning_vi": "khó",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h537",
+    "word": "easy",
+    "meaning_vi": "dễ",
+    "pos": "adjective",
+    "topics": ["descriptions", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h538",
+    "word": "very",
+    "meaning_vi": "rất",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h539",
+    "word": "really",
+    "meaning_vi": "thực sự",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h540",
+    "word": "just",
+    "meaning_vi": "vừa mới/chỉ",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h541",
+    "word": "even",
+    "meaning_vi": "thậm chí",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h542",
+    "word": "also",
+    "meaning_vi": "cũng",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h543",
+    "word": "well",
+    "meaning_vi": "tốt/giỏi",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h544",
+    "word": "often",
+    "meaning_vi": "thường xuyên",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h545",
+    "word": "usually",
+    "meaning_vi": "thường",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h546",
+    "word": "always",
+    "meaning_vi": "luôn luôn",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h547",
+    "word": "sometimes",
+    "meaning_vi": "đôi khi",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h548",
+    "word": "never",
+    "meaning_vi": "không bao giờ",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h549",
+    "word": "ever",
+    "meaning_vi": "từng/bao giờ",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h550",
+    "word": "already",
+    "meaning_vi": "đã",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h551",
+    "word": "still",
+    "meaning_vi": "vẫn còn",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h552",
+    "word": "yet",
+    "meaning_vi": "chưa",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h553",
+    "word": "tonight",
+    "meaning_vi": "tối nay",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h554",
+    "word": "soon",
+    "meaning_vi": "sớm",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h555",
+    "word": "ago",
+    "meaning_vi": "trước đây",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h556",
+    "word": "together",
+    "meaning_vi": "cùng nhau",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h557",
+    "word": "apart",
+    "meaning_vi": "tách rời",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h558",
+    "word": "again",
+    "meaning_vi": "lại/nữa",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h559",
+    "word": "almost",
+    "meaning_vi": "gần như",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h560",
+    "word": "nearly",
+    "meaning_vi": "gần như",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h561",
+    "word": "quite",
+    "meaning_vi": "khá",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h562",
+    "word": "rather",
+    "meaning_vi": "khá là",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h563",
+    "word": "instead",
+    "meaning_vi": "thay vì",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h564",
+    "word": "maybe",
+    "meaning_vi": "có lẽ",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h565",
+    "word": "perhaps",
+    "meaning_vi": "có lẽ",
+    "pos": "adverb",
+    "topics": ["core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h566",
+    "word": "zero",
+    "meaning_vi": "không",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h567",
+    "word": "one",
+    "meaning_vi": "một",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h568",
+    "word": "two",
+    "meaning_vi": "hai",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h569",
+    "word": "three",
+    "meaning_vi": "ba",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h570",
+    "word": "four",
+    "meaning_vi": "bốn",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h571",
+    "word": "five",
+    "meaning_vi": "năm",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h572",
+    "word": "six",
+    "meaning_vi": "sáu",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h573",
+    "word": "seven",
+    "meaning_vi": "bảy",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h574",
+    "word": "eight",
+    "meaning_vi": "tám",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h575",
+    "word": "nine",
+    "meaning_vi": "chín",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h576",
+    "word": "ten",
+    "meaning_vi": "mười",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h577",
+    "word": "eleven",
+    "meaning_vi": "mười một",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h578",
+    "word": "twelve",
+    "meaning_vi": "mười hai",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h579",
+    "word": "thirteen",
+    "meaning_vi": "mười ba",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h580",
+    "word": "fourteen",
+    "meaning_vi": "mười bốn",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h581",
+    "word": "fifteen",
+    "meaning_vi": "mười lăm",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h582",
+    "word": "sixteen",
+    "meaning_vi": "mười sáu",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h583",
+    "word": "seventeen",
+    "meaning_vi": "mười bảy",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h584",
+    "word": "eighteen",
+    "meaning_vi": "mười tám",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h585",
+    "word": "nineteen",
+    "meaning_vi": "mười chín",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h586",
+    "word": "twenty",
+    "meaning_vi": "hai mươi",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h587",
+    "word": "thirty",
+    "meaning_vi": "ba mươi",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h588",
+    "word": "forty",
+    "meaning_vi": "bốn mươi",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h589",
+    "word": "fifty",
+    "meaning_vi": "năm mươi",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h590",
+    "word": "sixty",
+    "meaning_vi": "sáu mươi",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h591",
+    "word": "seventy",
+    "meaning_vi": "bảy mươi",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h592",
+    "word": "eighty",
+    "meaning_vi": "tám mươi",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h593",
+    "word": "ninety",
+    "meaning_vi": "chín mươi",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h594",
+    "word": "hundred",
+    "meaning_vi": "trăm",
+    "pos": "number",
+    "topics": ["numbers", "core"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h595",
+    "word": "Monday",
+    "meaning_vi": "Thứ hai",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h596",
+    "word": "Tuesday",
+    "meaning_vi": "Thứ ba",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h597",
+    "word": "Wednesday",
+    "meaning_vi": "Thứ tư",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h598",
+    "word": "Thursday",
+    "meaning_vi": "Thứ năm",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h599",
+    "word": "Friday",
+    "meaning_vi": "Thứ sáu",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h600",
+    "word": "Saturday",
+    "meaning_vi": "Thứ bảy",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h601",
+    "word": "Sunday",
+    "meaning_vi": "Chủ nhật",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h602",
+    "word": "January",
+    "meaning_vi": "Tháng một",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h603",
+    "word": "February",
+    "meaning_vi": "Tháng hai",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h604",
+    "word": "March",
+    "meaning_vi": "Tháng ba",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h605",
+    "word": "April",
+    "meaning_vi": "Tháng tư",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h606",
+    "word": "June",
+    "meaning_vi": "Tháng sáu",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h607",
+    "word": "July",
+    "meaning_vi": "Tháng bảy",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h608",
+    "word": "August",
+    "meaning_vi": "Tháng tám",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h609",
+    "word": "September",
+    "meaning_vi": "Tháng chín",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h610",
+    "word": "October",
+    "meaning_vi": "Tháng mười",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h611",
+    "word": "November",
+    "meaning_vi": "Tháng mười một",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h612",
+    "word": "December",
+    "meaning_vi": "Tháng mười hai",
+    "pos": "noun",
+    "topics": ["time"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h613",
+    "word": "red",
+    "meaning_vi": "đỏ",
+    "pos": "adjective",
+    "topics": ["colors"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h614",
+    "word": "blue",
+    "meaning_vi": "xanh dương",
+    "pos": "adjective",
+    "topics": ["colors"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h615",
+    "word": "green",
+    "meaning_vi": "xanh lá",
+    "pos": "adjective",
+    "topics": ["colors"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h616",
+    "word": "yellow",
+    "meaning_vi": "vàng",
+    "pos": "adjective",
+    "topics": ["colors"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h617",
+    "word": "black",
+    "meaning_vi": "đen",
+    "pos": "adjective",
+    "topics": ["colors"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h618",
+    "word": "white",
+    "meaning_vi": "trắng",
+    "pos": "adjective",
+    "topics": ["colors"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h619",
+    "word": "brown",
+    "meaning_vi": "nâu",
+    "pos": "adjective",
+    "topics": ["colors"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h620",
+    "word": "gray",
+    "meaning_vi": "xám",
+    "pos": "adjective",
+    "topics": ["colors"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h621",
+    "word": "pink",
+    "meaning_vi": "hồng",
+    "pos": "adjective",
+    "topics": ["colors"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h622",
+    "word": "purple",
+    "meaning_vi": "tím",
+    "pos": "adjective",
+    "topics": ["colors"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h623",
+    "word": "orange",
+    "meaning_vi": "cam",
+    "pos": "adjective",
+    "topics": ["colors"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h624",
+    "word": "circle",
+    "meaning_vi": "hình tròn",
+    "pos": "noun",
+    "topics": ["shapes"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h625",
+    "word": "square",
+    "meaning_vi": "hình vuông",
+    "pos": "noun",
+    "topics": ["shapes"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h626",
+    "word": "triangle",
+    "meaning_vi": "hình tam giác",
+    "pos": "noun",
+    "topics": ["shapes"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h627",
+    "word": "rectangle",
+    "meaning_vi": "hình chữ nhật",
+    "pos": "noun",
+    "topics": ["shapes"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h628",
+    "word": "oval",
+    "meaning_vi": "hình bầu dục",
+    "pos": "noun",
+    "topics": ["shapes"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h629",
+    "word": "ear",
+    "meaning_vi": "tai",
+    "pos": "noun",
+    "topics": ["body"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h630",
+    "word": "nose",
+    "meaning_vi": "mũi",
+    "pos": "noun",
+    "topics": ["body"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h631",
+    "word": "mouth",
+    "meaning_vi": "miệng",
+    "pos": "noun",
+    "topics": ["body"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h632",
+    "word": "tongue",
+    "meaning_vi": "lưỡi",
+    "pos": "noun",
+    "topics": ["body"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h633",
+    "word": "neck",
+    "meaning_vi": "cổ",
+    "pos": "noun",
+    "topics": ["body"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h634",
+    "word": "shoulder",
+    "meaning_vi": "vai",
+    "pos": "noun",
+    "topics": ["body"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h635",
+    "word": "arm",
+    "meaning_vi": "cánh tay",
+    "pos": "noun",
+    "topics": ["body"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h636",
+    "word": "finger",
+    "meaning_vi": "ngón tay",
+    "pos": "noun",
+    "topics": ["body"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h637",
+    "word": "leg",
+    "meaning_vi": "chân",
+    "pos": "noun",
+    "topics": ["body"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h638",
+    "word": "knee",
+    "meaning_vi": "đầu gối",
+    "pos": "noun",
+    "topics": ["body"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h639",
+    "word": "foot",
+    "meaning_vi": "bàn chân",
+    "pos": "noun",
+    "topics": ["body"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h640",
+    "word": "stomach",
+    "meaning_vi": "bụng",
+    "pos": "noun",
+    "topics": ["body"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h641",
+    "word": "parents",
+    "meaning_vi": "cha mẹ",
+    "pos": "noun",
+    "topics": ["family"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h642",
+    "word": "son",
+    "meaning_vi": "con trai",
+    "pos": "noun",
+    "topics": ["family"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h643",
+    "word": "daughter",
+    "meaning_vi": "con gái",
+    "pos": "noun",
+    "topics": ["family"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h644",
+    "word": "brother",
+    "meaning_vi": "anh/em trai",
+    "pos": "noun",
+    "topics": ["family"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h645",
+    "word": "sister",
+    "meaning_vi": "chị/em gái",
+    "pos": "noun",
+    "topics": ["family"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h646",
+    "word": "baby",
+    "meaning_vi": "em bé",
+    "pos": "noun",
+    "topics": ["family"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h647",
+    "word": "worker",
+    "meaning_vi": "công nhân",
+    "pos": "noun",
+    "topics": ["jobs"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h648",
+    "word": "engineer",
+    "meaning_vi": "kỹ sư",
+    "pos": "noun",
+    "topics": ["jobs"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h649",
+    "word": "driver",
+    "meaning_vi": "tài xế",
+    "pos": "noun",
+    "topics": ["jobs"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h650",
+    "word": "farmer",
+    "meaning_vi": "nông dân",
+    "pos": "noun",
+    "topics": ["jobs"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h651",
+    "word": "police officer",
+    "meaning_vi": "cảnh sát",
+    "pos": "noun",
+    "topics": ["jobs"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h652",
+    "word": "firefighter",
+    "meaning_vi": "lính cứu hỏa",
+    "pos": "noun",
+    "topics": ["jobs"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h653",
+    "word": "chef",
+    "meaning_vi": "đầu bếp",
+    "pos": "noun",
+    "topics": ["jobs"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h654",
+    "word": "artist",
+    "meaning_vi": "nghệ sĩ",
+    "pos": "noun",
+    "topics": ["jobs"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h655",
+    "word": "singer",
+    "meaning_vi": "ca sĩ",
+    "pos": "noun",
+    "topics": ["jobs"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h656",
+    "word": "actor",
+    "meaning_vi": "diễn viên",
+    "pos": "noun",
+    "topics": ["jobs"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h657",
+    "word": "rice",
+    "meaning_vi": "cơm",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h658",
+    "word": "bread",
+    "meaning_vi": "bánh mì",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h659",
+    "word": "milk",
+    "meaning_vi": "sữa",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h660",
+    "word": "egg",
+    "meaning_vi": "trứng",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h661",
+    "word": "sugar",
+    "meaning_vi": "đường",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h662",
+    "word": "salt",
+    "meaning_vi": "muối",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h663",
+    "word": "fruit",
+    "meaning_vi": "trái cây",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h664",
+    "word": "meat",
+    "meaning_vi": "thịt",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h665",
+    "word": "vegetable",
+    "meaning_vi": "rau",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h666",
+    "word": "soup",
+    "meaning_vi": "súp",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h667",
+    "word": "tea",
+    "meaning_vi": "trà",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h668",
+    "word": "coffee",
+    "meaning_vi": "cà phê",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h669",
+    "word": "oil",
+    "meaning_vi": "dầu",
+    "pos": "noun",
+    "topics": ["food"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h670",
+    "word": "kitchen",
+    "meaning_vi": "nhà bếp",
+    "pos": "noun",
+    "topics": ["home"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h671",
+    "word": "bathroom",
+    "meaning_vi": "phòng tắm",
+    "pos": "noun",
+    "topics": ["home"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h672",
+    "word": "sofa",
+    "meaning_vi": "ghế sofa",
+    "pos": "noun",
+    "topics": ["home"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h673",
+    "word": "lamp",
+    "meaning_vi": "đèn",
+    "pos": "noun",
+    "topics": ["home"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h674",
+    "word": "bike",
+    "meaning_vi": "xe đạp",
+    "pos": "noun",
+    "topics": ["transport"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h675",
+    "word": "motorbike",
+    "meaning_vi": "xe máy",
+    "pos": "noun",
+    "topics": ["transport"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h676",
+    "word": "plane",
+    "meaning_vi": "máy bay",
+    "pos": "noun",
+    "topics": ["transport"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h677",
+    "word": "ship",
+    "meaning_vi": "tàu thủy",
+    "pos": "noun",
+    "topics": ["transport"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h678",
+    "word": "boat",
+    "meaning_vi": "thuyền",
+    "pos": "noun",
+    "topics": ["transport"],
+    "tags": ["high"]
+  },
+  {
+    "id": "h679",
+    "word": "taxi",
+    "meaning_vi": "xe taxi",
+    "pos": "noun",
+    "topics": ["transport"],
+    "tags": ["high"]
+  }
+]

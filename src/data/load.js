@@ -16,18 +16,24 @@ export const INDEX = {
 };
 
 export async function loadData() {
-  const url = "./data/grade-1-full.json"; // adjust if needed
-  const res = await fetch(url, { cache: "no-cache" });
-  if (!res.ok) throw new Error(`Không tải được ${url} (HTTP ${res.status})`);
-  const data = await res.json();
+  const urls = ["./data/high.json", "./data/med.json", "./data/low.json"];
 
   let items = [];
-  if (Array.isArray(data)) items = data;
-  else if (data.categories)
-    items = data.categories.flatMap((c) => c.items || []);
-  else if (data.items) items = data.items;
-  else items = [];
+  for (const url of urls) {
+    const res = await fetch(url, { cache: "no-cache" });
+    if (!res.ok) throw new Error(`Không tải được ${url} (HTTP ${res.status})`);
+    const data = await res.json();
 
+    let arr = [];
+    if (Array.isArray(data)) arr = data;
+    else if (data.categories)
+      arr = data.categories.flatMap((c) => c.items || []);
+    else if (data.items) arr = data.items;
+
+    items = items.concat(arr);
+  }
+
+  // Chuẩn hoá DB.raw
   DB.raw = items
     .map((it, idx) => ({
       id: it.id || `w_${idx + 1}`,
@@ -39,11 +45,12 @@ export async function loadData() {
     }))
     .filter((x) => x.word && x.meaning_vi);
 
+  // POS, topics, tags
   DB.pos = [...new Set(DB.raw.map((x) => x.pos).filter(Boolean))].sort();
   DB.topics = [...new Set(DB.raw.flatMap((x) => x.topics || []))].sort();
   DB.tags = [...new Set(DB.raw.flatMap((x) => x.tags || []))].sort();
 
-  // reset
+  // Reset INDEX
   INDEX.byWord.clear();
   INDEX.trie = {};
   INDEX.trieEN = INDEX.trie;
@@ -56,6 +63,7 @@ export async function loadData() {
   INDEX.topicList = DB.topics;
   INDEX.tagList = DB.tags;
 
+  // Build INDEX
   for (const x of DB.raw) {
     // EN
     const nWord = normalize(x.word);
@@ -91,7 +99,7 @@ export async function loadData() {
     }
   }
 
-  // chuyển Set -> Array để nhẹ DOM serialize
+  // Chuyển Set -> Array cho nhẹ DOM serialize
   for (const k in INDEX.vi2words) {
     INDEX.vi2words[k] = [...INDEX.vi2words[k]];
   }
