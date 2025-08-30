@@ -41,3 +41,22 @@ async function router() {
 
 window.addEventListener("hashchange", router);
 router();
+
+// src/main.js (chỉ phần liên quan phát âm)
+import TTS from "./features/pronounce-tts.js";
+
+// Đợi danh sách voice sẵn sàng, rồi gắn lắng nghe click
+TTS.ready().then(() => {
+  // Lắng nghe toàn trang, hoặc truyền container danh sách kết quả nếu muốn
+  TTS.bindClicks(document);
+});
+
+// (khuyến nghị) mở khóa iOS lần đầu người dùng tương tác
+window.addEventListener(
+  "click",
+  function unlockOnce() {
+    if ("_ensureUnlockedOnce" in TTS) TTS._ensureUnlockedOnce();
+    window.removeEventListener("click", unlockOnce, { capture: false });
+  },
+  { once: true }
+);
