@@ -1,38 +1,33 @@
-import { mountSearchBox } from "../ui/searchbar.js";
-import { mountFiltersBar } from "../ui/filters.js";
-import { renderList } from "../ui/list.js";
 import { search } from "../search/index.js";
-import { DB } from "../data/load.js";
+import { mountSearchBox } from "../ui/searchbar.js";
+import { renderList } from "../ui/list.js";
 
 export function pageResults(params) {
   const root = document.createElement("section");
   root.className = "grid gap-4";
 
+  // Search box
   const sb = document.createElement("div");
   mountSearchBox(sb);
   root.appendChild(sb);
 
-  const bar = document.createElement("div");
-  const facets = { pos: DB.pos, topics: DB.topics, tags: DB.tags };
-  let current = [];
-  const handle = ({ pos, topic, tag, sort }) => {
-    current = search(params.q || "", { pos, topic, tag });
-    paint(sort);
-  };
-  const api = mountFiltersBar(bar, facets, handle);
-  root.appendChild(bar);
-
+  // Hiển thị kết quả
   const listZone = document.createElement("div");
   root.appendChild(listZone);
 
-  function paint(sort = "az") {
-    const sorted = [...current].sort((a, b) =>
-      sort === "az"
-        ? a.word.localeCompare(b.word)
-        : b.word.localeCompare(a.word)
-    );
-    renderList(listZone, sorted);
-  }
-  handle({ ...api.get(), sort: "az" });
+  // Search
+  const q = params.q || "";
+  const items = search(q);
+
+  // Tiêu đề nhỏ
+  const h = document.createElement("h2");
+  h.className = "text-slate-500 text-sm";
+  h.textContent = q
+    ? `Kết quả cho: "${q}" (${items.length} mục)`
+    : `Tất cả (${items.length} mục)`;
+  root.appendChild(h);
+
+  renderList(listZone, items);
+
   return root;
 }

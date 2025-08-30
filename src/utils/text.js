@@ -1,26 +1,3 @@
-// export const VIET_MAP = {
-//   a: /[àáạảãâầấậẩẫăằắặẳẵ]/g,
-//   A: /[ÀÁẠẢÃÂẦẤẬẨẪĂẰẮẶẲẴ]/g,
-//   e: /[èéẹẻẽêềếệểễ]/g,
-//   E: /[ÈÉẸẺẼÊỀẾỆỂỄ]/g,
-//   i: /[ìíịỉĩ]/g,
-//   I: /[ÌÍỊỈĨ]/g,
-//   o: /[òóọỏõôồốộổỗơờớợởỡ]/g,
-//   O: /[ÒÓỌỎÕÔỒỐỘỔỖƠỜỚỢỞỠ]/g,
-//   u: /[ùúụủũưừứựửữ]/g,
-//   U: /[ÙÚỤỦŨƯỪỨỰỬỮ]/g,
-//   y: /[ỳýỵỷỹ]/g,
-//   Y: /[ỲÝỴỶỸ]/g,
-//   d: /[đ]/g,
-//   D: /[Đ]/g,
-// };
-
-// export function normalize(str = "") {
-//   let s = (str + "").trim();
-//   for (const k in VIET_MAP) s = s.replace(VIET_MAP[k], k);
-//   return s.toLowerCase();
-// }
-
 export function normalize(s) {
   return (s ?? "")
     .toString()
