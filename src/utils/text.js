@@ -1,24 +1,36 @@
-export const VIET_MAP = {
-  a: /[àáạảãâầấậẩẫăằắặẳẵ]/g,
-  A: /[ÀÁẠẢÃÂẦẤẬẨẪĂẰẮẶẲẴ]/g,
-  e: /[èéẹẻẽêềếệểễ]/g,
-  E: /[ÈÉẸẺẼÊỀẾỆỂỄ]/g,
-  i: /[ìíịỉĩ]/g,
-  I: /[ÌÍỊỈĨ]/g,
-  o: /[òóọỏõôồốộổỗơờớợởỡ]/g,
-  O: /[ÒÓỌỎÕÔỒỐỘỔỖƠỜỚỢỞỠ]/g,
-  u: /[ùúụủũưừứựửữ]/g,
-  U: /[ÙÚỤỦŨƯỪỨỰỬỮ]/g,
-  y: /[ỳýỵỷỹ]/g,
-  Y: /[ỲÝỴỶỸ]/g,
-  d: /[đ]/g,
-  D: /[Đ]/g,
-};
+// export const VIET_MAP = {
+//   a: /[àáạảãâầấậẩẫăằắặẳẵ]/g,
+//   A: /[ÀÁẠẢÃÂẦẤẬẨẪĂẰẮẶẲẴ]/g,
+//   e: /[èéẹẻẽêềếệểễ]/g,
+//   E: /[ÈÉẸẺẼÊỀẾỆỂỄ]/g,
+//   i: /[ìíịỉĩ]/g,
+//   I: /[ÌÍỊỈĨ]/g,
+//   o: /[òóọỏõôồốộổỗơờớợởỡ]/g,
+//   O: /[ÒÓỌỎÕÔỒỐỘỔỖƠỜỚỢỞỠ]/g,
+//   u: /[ùúụủũưừứựửữ]/g,
+//   U: /[ÙÚỤỦŨƯỪỨỰỬỮ]/g,
+//   y: /[ỳýỵỷỹ]/g,
+//   Y: /[ỲÝỴỶỸ]/g,
+//   d: /[đ]/g,
+//   D: /[Đ]/g,
+// };
 
-export function normalize(str = "") {
-  let s = (str + "").trim();
-  for (const k in VIET_MAP) s = s.replace(VIET_MAP[k], k);
-  return s.toLowerCase();
+// export function normalize(str = "") {
+//   let s = (str + "").trim();
+//   for (const k in VIET_MAP) s = s.replace(VIET_MAP[k], k);
+//   return s.toLowerCase();
+// }
+
+export function normalize(s) {
+  return (s ?? "")
+    .toString()
+    .toLowerCase()
+    .normalize("NFD") // tách dấu thanh
+    .replace(/[\u0300-\u036f]/g, "") // bỏ toàn bộ dấu
+    .replace(/đ/g, "d") // đ -> d
+    .replace(/[^a-z0-9\s-]/g, " ") // bỏ ký tự lạ
+    .replace(/\s+/g, " ") // gom khoảng trắng
+    .trim();
 }
 
 // Edit distance <=1 quick check
