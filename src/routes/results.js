@@ -11,22 +11,16 @@ export function pageResults(params) {
   mountSearchBox(sb);
   root.appendChild(sb);
 
-  // Hiển thị kết quả
+  // 👉 đặt placeholder = giá trị q trên URL
+  const q = params.q ? String(params.q) : "";
+  const input = sb.querySelector("#q");
+  if (input) input.placeholder = q || "Tìm EN/VI..."; // không set value, chỉ là placeholder
+
+  // Kết quả
   const listZone = document.createElement("div");
   root.appendChild(listZone);
 
-  // Search
-  const q = params.q || "";
   const items = search(q);
-
-  // Tiêu đề nhỏ
-  const h = document.createElement("h2");
-  h.className = "text-slate-500 text-sm";
-  h.textContent = q
-    ? `Kết quả cho: "${q}" (${items.length} mục)`
-    : `Tất cả (${items.length} mục)`;
-  root.appendChild(h);
-
   renderList(listZone, items);
 
   return root;
