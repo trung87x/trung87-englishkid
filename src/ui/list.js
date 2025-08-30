@@ -122,23 +122,19 @@ export function renderList(container, items) {
     card.setAttribute("aria-expanded", expanded ? "true" : "false");
   }
 
-  function toggleCard(card) {
-    const isOpen = card.getAttribute("aria-expanded") === "true";
-    if (!isOpen) {
-      if (openedCard && openedCard !== card) setExpanded(openedCard, false);
-      setExpanded(card, true);
-      openedCard = card;
-    } else {
-      setExpanded(card, false);
-      openedCard = null;
-    }
+  // ✅ Chỉ mở nếu cần, không bao giờ tự đóng khi click lại cùng card
+  function openCard(card) {
+    if (openedCard === card) return; // đã mở rồi -> giữ nguyên
+    if (openedCard && openedCard !== card) setExpanded(openedCard, false);
+    setExpanded(card, true);
+    openedCard = card;
   }
 
   // ---- Events ----
   listEl.addEventListener("click", (e) => {
     const card = e.target.closest("[data-speak]");
     if (!card) return;
-    toggleCard(card);
+    openCard(card);
     speak(card.dataset.speak);
   });
 
@@ -148,7 +144,7 @@ export function renderList(container, items) {
     if (!card) return;
     if (e.key === "Enter" || e.key === " ") {
       e.preventDefault();
-      toggleCard(card);
+      openCard(card);
       speak(card.dataset.speak);
     }
   });
