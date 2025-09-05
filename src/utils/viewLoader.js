@@ -24,6 +24,7 @@ export async function loadSharedView(elementId, viewName) {
     scripts.map((old) => {
       const s = document.createElement("script");
       for (const { name, value } of old.attributes) s.setAttribute(name, value);
+      const isModule = (old.type || "").toLowerCase() === "module";
       if (old.src) {
         return new Promise((ok, err) => {
           s.onload = ok;
@@ -31,11 +32,18 @@ export async function loadSharedView(elementId, viewName) {
           s.src = old.src;
           old.replaceWith(s);
         });
-      } else {
-        s.text = old.textContent || "";
-        old.replaceWith(s);
-        return Promise.resolve();
       }
+      if (isModule) {
+        return new Promise((ok, err) => {
+          s.onload = ok;
+          s.onerror = err;
+          s.text = old.textContent || "";
+          old.replaceWith(s);
+        });
+      }
+      s.text = old.textContent || "";
+      old.replaceWith(s);
+      return Promise.resolve();
     })
   );
 }
