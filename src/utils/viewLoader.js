@@ -1,6 +1,7 @@
 // Load partials dưới dạng chuỗi (raw) — không fetch
 const PARTIALS = import.meta.glob("/src/views/Shared/*.html", {
-  as: "raw",
+  query: "?raw",
+  import: "default",
   eager: true,
 });
 

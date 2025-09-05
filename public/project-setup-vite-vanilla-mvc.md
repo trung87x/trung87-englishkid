@@ -252,7 +252,8 @@ export default class HomeController extends BaseController {
 ```js
 // Load TẤT CẢ file HTML trong /src/views dưới dạng chuỗi (raw), không fetch, không bị Vite tiêm @vite/client
 const TPL = import.meta.glob("/src/views/**/*.html", {
-  as: "raw",
+  query: "?raw",
+  import: "default",
   eager: true,
 });
 
@@ -316,7 +317,8 @@ export async function renderView(viewPath, model = {}) {
 ```js
 // Load partials dưới dạng chuỗi (raw) — không fetch
 const PARTIALS = import.meta.glob("/src/views/Shared/*.html", {
-  as: "raw",
+  query: "?raw",
+  import: "default",
   eager: true,
 });
 
