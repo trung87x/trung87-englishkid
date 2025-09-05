@@ -1,0 +1,9 @@
+<meta name="layout" content="_Layout.html" />
+<h1 id="title"></h1>
+<p id="msg"></p>
+<script>
+  window.initView = (m) => {
+    document.getElementById("title").textContent = m.title ?? "";
+    document.getElementById("msg").textContent = m.message ?? "";
+  };
+</script>

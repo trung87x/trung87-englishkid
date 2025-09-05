@@ -1,0 +1,17 @@
+<div class="relative">
+  <input id="q" type="text" placeholder="Tìm EN/VI..." />
+  <button id="go">Tìm</button>
+</div>
+
+<script type="module">
+  const input = document.getElementById("q");
+  const go = document.getElementById("go");
+  function navigate() {
+    const v = encodeURIComponent(input.value || "");
+    location.hash = `#/search?q=${v}`;
+  }
+  go?.addEventListener("click", navigate);
+  input?.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") navigate();
+  });
+</script>
