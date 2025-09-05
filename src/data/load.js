@@ -10,3 +10,7 @@ export const DB = {
     ...(Array.isArray(low) ? low : []),
   ],
 };
+
+export async function loadData() {
+  return DB;
+}

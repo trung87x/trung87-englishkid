@@ -1,17 +1,49 @@
 <div class="relative">
-  <input id="q" type="text" placeholder="Tìm EN/VI..." />
-  <button id="go">Tìm</button>
+  <input
+    id="q"
+    type="text"
+    autocomplete="off"
+    placeholder="Tìm EN/VI..."
+    class="w-full px-4 py-2 border rounded-xl"
+  />
+  <div
+    id="ac"
+    class="absolute left-0 right-0 mt-1 bg-white border rounded-xl shadow hidden"
+  ></div>
 </div>
 
 <script type="module">
+  import * as SearchService from "../../services/SearchService.js";
+
   const input = document.getElementById("q");
-  const go = document.getElementById("go");
-  function navigate() {
-    const v = encodeURIComponent(input.value || "");
-    location.hash = `#/search?q=${v}`;
+  const ac = document.getElementById("ac");
+
+  function navigate(v) {
+    location.hash = `#/search?q=${encodeURIComponent(v)}`;
   }
-  go?.addEventListener("click", navigate);
-  input?.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") navigate();
+
+  input.addEventListener("input", () => {
+    const q = input.value.trim();
+    if (!q) {
+      ac.innerHTML = "";
+      ac.classList.add("hidden");
+      return;
+    }
+    const items = SearchService.suggest(q, 5);
+    ac.innerHTML = items
+      .map(
+        (w) =>
+          `<div class="px-3 py-1 hover:bg-slate-100 cursor-pointer">${w}</div>`
+      )
+      .join("");
+    ac.classList.remove("hidden");
+
+    ac.querySelectorAll("div").forEach((el) => {
+      el.addEventListener("click", () => navigate(el.textContent));
+    });
+  });
+
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") navigate(input.value);
   });
 </script>

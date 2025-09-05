@@ -13,3 +13,8 @@ export function performSearch({ q = "" } = {}) {
     return en.includes(kw) || vi.toLowerCase().includes(kw);
   });
 }
+
+export function suggest(q, limit = 5) {
+  const results = performSearch({ q });
+  return results.slice(0, limit).map((x) => x.word);
+}
