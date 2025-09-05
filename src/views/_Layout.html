@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <title>{{title}}</title>
-  </head>
-  <body>
-    <header id="header"></header>
-    <main id="app">{{{body}}}</main>
-    <footer id="footer"></footer>
-  </body>
-</html>
+<body>
+  <header id="header"></header>
+
+  <main id="app">{{{body}}}</main>
+
+  <footer id="footer"></footer>
+
+  <!-- Layout tự load partials -->
+  <script type="module">
+    import { loadSharedView } from "/src/utils/viewLoader.js";
+    loadSharedView("header", "_Header.html");
+    loadSharedView("footer", "_Footer.html");
+  </script>
+</body>

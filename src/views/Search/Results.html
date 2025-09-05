@@ -1,0 +1,35 @@
+<meta name="layout" content="_Layout.html" />
+
+<section class="px-4 py-4">
+  <h1 class="text-2xl font-semibold">Kết quả cho: "{{q}}"</h1>
+  <div id="resultZone" class="mt-3"></div>
+</section>
+
+<script>
+  window.initView = (m) => {
+    const z = document.getElementById("resultZone");
+    if (!m.q) {
+      z.innerHTML = `<p class="text-slate-600">Nhập từ khoá để tìm kiếm.</p>`;
+      return;
+    }
+    if (!m.items || !m.items.length) {
+      z.innerHTML = `<p class="text-slate-600">Không có kết quả.</p>`;
+      return;
+    }
+    z.innerHTML = m.items
+      .map(
+        (x) => `
+<div class="py-2 border-b border-slate-200">
+<div class="font-medium">${x.word}</div>
+<div class="text-sm text-slate-600">${
+          Array.isArray(x.meaning_vi)
+            ? x.meaning_vi.join(", ")
+            : x.meaning_vi || ""
+        }</div>
+<div class="text-xs text-slate-500">${x.pos || ""} · ${x.topic || ""}</div>
+</div>
+`
+      )
+      .join("");
+  };
+</script>

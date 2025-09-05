@@ -1,33 +1,40 @@
+// Load partials dưới dạng chuỗi (raw) — không fetch
+const PARTIALS = import.meta.glob("/src/views/Shared/*.html", {
+  as: "raw",
+  eager: true,
+});
+
 export async function loadSharedView(elementId, viewName) {
-  const target = document.getElementById(elementId);
-  if (!target) return;
+  const el = document.getElementById(elementId);
+  if (!el) return;
 
-  const res = await fetch(`/src/views/Shared/${viewName}`, {
-    cache: "no-cache",
-  });
-  if (!res.ok) return;
+  const key = `/src/views/Shared/${viewName}`;
+  const html = PARTIALS[key];
+  if (!html) {
+    console.warn("[loadSharedView] not found:", key);
+    return;
+  }
 
-  const html = await res.text();
-  target.innerHTML = html;
+  el.innerHTML = html;
 
-  // Kích hoạt lại script
-  const oldScripts = Array.from(target.querySelectorAll("script"));
-  const pending = oldScripts.map((old) => {
-    const s = document.createElement("script");
-    if (old.type) s.type = old.type;
-    if (old.src) {
-      return new Promise((resolve, reject) => {
-        s.onload = () => resolve();
-        s.onerror = (e) => reject(e);
-        s.src = old.src;
+  // Re-exec <script> bên trong partial
+  const scripts = Array.from(el.querySelectorAll("script"));
+  await Promise.allSettled(
+    scripts.map((old) => {
+      const s = document.createElement("script");
+      for (const { name, value } of old.attributes) s.setAttribute(name, value);
+      if (old.src) {
+        return new Promise((ok, err) => {
+          s.onload = ok;
+          s.onerror = err;
+          s.src = old.src;
+          old.replaceWith(s);
+        });
+      } else {
+        s.text = old.textContent || "";
         old.replaceWith(s);
-      });
-    } else {
-      s.textContent = old.textContent || "";
-      old.replaceWith(s);
-      return Promise.resolve();
-    }
-  });
-
-  await Promise.allSettled(pending);
+        return Promise.resolve();
+      }
+    })
+  );
 }

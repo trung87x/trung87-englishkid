@@ -1,30 +1,57 @@
-import { loadSharedView } from "./viewLoader.js";
+// Load TẤT CẢ file HTML trong /src/views dưới dạng chuỗi (raw), không fetch, không bị Vite tiêm @vite/client
+const TPL = import.meta.glob("/src/views/**/*.html", {
+  as: "raw",
+  eager: true,
+});
 
 export async function renderView(viewPath, model = {}) {
-  const res = await fetch(`/src/views/${viewPath}`, { cache: "no-cache" });
-  if (!res.ok) throw new Error(`View not found: ${viewPath}`);
-  const viewHtml = await res.text();
+  // 1) View HTML
+  const viewFull = `/src/views/${viewPath}`;
+  const viewHtml = TPL[viewFull];
+  if (!viewHtml) throw new Error(`View not found: ${viewFull}`);
 
+  // 2) Layout từ <meta name="layout"> (mặc định _Layout.html)
   const layoutName =
-    viewHtml.match(/<meta\s+name="layout"\s+content="([^"]+)"/)?.[1] ||
-    "_Layout.html";
+    viewHtml.match(
+      /<meta\s+name=["']layout["']\s+content=["']([^"']+)["']/i
+    )?.[1] || "_Layout.html";
+  const layoutFull = `/src/views/${layoutName}`;
+  const layoutHtml = TPL[layoutFull];
+  if (!layoutHtml) throw new Error(`Layout not found: ${layoutFull}`);
 
-  const layoutRes = await fetch(`/src/views/${layoutName}`, {
-    cache: "no-cache",
-  });
-  if (!layoutRes.ok) throw new Error(`Layout not found: ${layoutName}`);
-  let layoutHtml = await layoutRes.text();
+  // 3) Merge vào {{{body}}} (+ optional {{title}})
+  const viewBody = viewHtml.replace(/<meta[^>]*>/i, "").trim();
+  let merged = layoutHtml.replace(/{{{body}}}/g, viewBody);
+  merged = merged.replace(/{{title}}/g, model.title ?? "");
 
-  const bodyHtml = viewHtml.replace(/<meta[^>]*>/g, "").trim();
-  layoutHtml = layoutHtml.replace(/{{title}}/g, model.title || "");
-  layoutHtml = layoutHtml.replace(/{{{body}}}/g, bodyHtml);
+  // 4) Mount
+  document.body.innerHTML = merged;
 
-  document.body.innerHTML = layoutHtml;
+  // 5) Re-exec <script> (layout + view) để initView được định nghĩa
+  delete window.initView;
+  const scripts = Array.from(document.body.querySelectorAll("script"));
+  await Promise.allSettled(
+    scripts.map((old) => {
+      const s = document.createElement("script");
+      for (const { name, value } of old.attributes) s.setAttribute(name, value);
+      if (old.src) {
+        return new Promise((ok, err) => {
+          s.onload = ok;
+          s.onerror = err;
+          s.src = old.src;
+          old.replaceWith(s);
+        });
+      } else {
+        s.text = old.textContent || "";
+        old.replaceWith(s);
+        return Promise.resolve();
+      }
+    })
+  );
 
-  await loadSharedView("header", "_Header.html");
-  await loadSharedView("footer", "_Footer.html");
-
-  if (window.initView) {
+  // 6) Gọi initView(model) nếu có
+  window.__viewData = model;
+  if (typeof window.initView === "function") {
     const fn = window.initView;
     delete window.initView;
     await fn(model);
