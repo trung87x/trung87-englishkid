@@ -1,4 +1,3 @@
-// Service chỉ đọc DB và lọc đơn giản theo từ khoá
 import { DB } from "../data/load.js";
 
 export function performSearch({ q = "" } = {}) {
@@ -12,9 +11,4 @@ export function performSearch({ q = "" } = {}) {
       : x.meaning_vi || "";
     return en.includes(kw) || vi.toLowerCase().includes(kw);
   });
-}
-
-export function suggest(q, limit = 5) {
-  const results = performSearch({ q });
-  return results.slice(0, limit).map((x) => x.word);
 }

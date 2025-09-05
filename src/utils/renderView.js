@@ -24,11 +24,6 @@ export async function renderView(viewPath, model = {}) {
   const viewBody = viewHtml.replace(/<meta[^>]*>/i, "").trim();
   let merged = layoutHtml.replace(/{{{body}}}/g, viewBody);
   merged = merged.replace(/{{title}}/g, model.title ?? "");
-  // Thay thế các placeholder còn lại dạng {{key}}
-  merged = merged.replace(/{{(?!{)([^}]+)}}/g, (_, k) => {
-    const key = k.trim();
-    return key in model ? model[key] : "";
-  });
 
   // 4) Mount
   document.body.innerHTML = merged;
@@ -40,20 +35,20 @@ export async function renderView(viewPath, model = {}) {
     scripts.map((old) => {
       const s = document.createElement("script");
       for (const { name, value } of old.attributes) s.setAttribute(name, value);
-      return new Promise((ok, err) => {
-        s.onload = ok;
-        s.onerror = err;
-        if (old.src) {
+      if (old.src) {
+        return new Promise((ok, err) => {
+          s.onload = ok;
+          s.onerror = err;
           s.src = old.src;
-        } else {
-          s.text = old.textContent || "";
-        }
+          old.replaceWith(s);
+        });
+      } else {
+        s.text = old.textContent || "";
         old.replaceWith(s);
-      });
+        return Promise.resolve();
+      }
     })
   );
-  // Chờ một tick để đảm bảo script module đã chạy
-  await new Promise((r) => setTimeout(r));
 
   // 6) Gọi initView(model) nếu có
   window.__viewData = model;
