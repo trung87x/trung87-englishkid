@@ -1,6 +1,5 @@
 import HomeController from "./controllers/HomeController.js";
 import SearchController from "./controllers/SearchController.js";
-
 const routes = [
   { path: /^#\/?$/, controller: HomeController, action: "index" },
   { path: /^#\/about$/, controller: HomeController, action: "about" },

@@ -1,53 +1,41 @@
-const TEMPLATES = import.meta.glob('/src/views/**/*.html', {
-  query: '?raw',
-  import: 'default',
+// Load partials dưới dạng chuỗi (raw) — không fetch
+const PARTIALS = import.meta.glob("/src/views/Shared/*.html", {
+  query: "?raw",
+  import: "default",
   eager: true,
 });
 
-export function getTemplate(relPath) {
-  const key = relPath.startsWith('/src/views')
-    ? relPath
-    : `/src/views/${relPath}`;
-  return TEMPLATES[key];
-}
-
-export async function loadSharedView(elementId, viewName, model = {}) {
-  const el = typeof elementId === 'string' ? document.getElementById(elementId) : elementId;
+export async function loadSharedView(elementId, viewName) {
+  const el = document.getElementById(elementId);
   if (!el) return;
-  const html = getTemplate(`Shared/${viewName}`);
+
+  const key = `/src/views/Shared/${viewName}`;
+  const html = PARTIALS[key];
   if (!html) {
-    console.warn('[loadSharedView] not found:', viewName);
+    console.warn("[loadSharedView] not found:", key);
     return;
   }
-  const tmp = document.createElement('div');
-  tmp.innerHTML = html;
-  await executeScripts(tmp, model);
-  el.innerHTML = '';
-  while (tmp.firstChild) el.appendChild(tmp.firstChild);
-}
 
-export async function executeScripts(root, model = {}) {
-  const scripts = Array.from(root.querySelectorAll('script'));
-  for (const old of scripts) {
-    const s = document.createElement('script');
-    for (const { name, value } of old.attributes) s.setAttribute(name, value);
-    const isModule = (old.type || '').toLowerCase() === 'module';
-    if (old.src || isModule) {
-      await new Promise((ok, err) => {
-        s.onload = ok;
-        s.onerror = err;
-        if (old.src) s.src = old.src;
-        else s.text = old.textContent || '';
+  el.innerHTML = html;
+
+  // Re-exec <script> bên trong partial
+  const scripts = Array.from(el.querySelectorAll("script"));
+  await Promise.allSettled(
+    scripts.map((old) => {
+      const s = document.createElement("script");
+      for (const { name, value } of old.attributes) s.setAttribute(name, value);
+      if (old.src) {
+        return new Promise((ok, err) => {
+          s.onload = ok;
+          s.onerror = err;
+          s.src = old.src;
+          old.replaceWith(s);
+        });
+      } else {
+        s.text = old.textContent || "";
         old.replaceWith(s);
-      });
-    } else {
-      s.text = old.textContent || '';
-      old.replaceWith(s);
-    }
-  }
-  if (typeof window.initView === 'function') {
-    const fn = window.initView;
-    delete window.initView;
-    await fn(model);
-  }
+        return Promise.resolve();
+      }
+    })
+  );
 }
