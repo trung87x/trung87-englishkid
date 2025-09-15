@@ -5,6 +5,7 @@ export default class SearchController extends BaseController {
   async index(params = {}) {
     const q = params.q ?? getQueryFromHash();
     const items = performSearch({ q });
+    console.log(`[Search] Tìm "${q}", có ${items.length} kết quả`);
     await this.render("Search/Results.html", {
       title: "Kết quả",
       q: q || "",

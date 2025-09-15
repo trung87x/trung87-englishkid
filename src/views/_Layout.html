@@ -1,14 +1,10 @@
 <body>
-  <header id="header"></header>
-
+  <header id="header">
+    <nav>
+      <a href="#/">Home</a> | <a href="#/about">About</a> |
+      <a href="#/contact">Contact</a>
+    </nav>
+  </header>
   <main id="app">{{{body}}}</main>
-
-  <footer id="footer"></footer>
-
-  <!-- Layout tự load partials -->
-  <script type="module">
-    import { loadSharedView } from "/src/utils/viewLoader.js";
-    loadSharedView("header", "_Header.html");
-    loadSharedView("footer", "_Footer.html");
-  </script>
+  <footer id="footer"><small>© 2025 EnglishKid Demo</small></footer>
 </body>

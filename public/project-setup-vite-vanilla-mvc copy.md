@@ -250,33 +250,61 @@ export default class HomeController extends BaseController {
 ### 5.7 src/utils/renderView.js
 
 ```js
-import { loadSharedView } from "./viewLoader.js";
+// Load TẤT CẢ file HTML trong /src/views dưới dạng chuỗi (raw), không fetch, không bị Vite tiêm @vite/client
+const TPL = import.meta.glob("/src/views/**/*.html", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+});
 
 export async function renderView(viewPath, model = {}) {
-  const res = await fetch(`/src/views/${viewPath}`, { cache: "no-cache" });
-  if (!res.ok) throw new Error(`View not found: ${viewPath}`);
-  const viewHtml = await res.text();
+  // 1) View HTML
+  const viewFull = `/src/views/${viewPath}`;
+  const viewHtml = TPL[viewFull];
+  if (!viewHtml) throw new Error(`View not found: ${viewFull}`);
 
+  // 2) Layout từ <meta name="layout"> (mặc định _Layout.html)
   const layoutName =
-    viewHtml.match(/<meta\s+name="layout"\s+content="([^"]+)"/)?.[1] ||
-    "_Layout.html";
+    viewHtml.match(
+      /<meta\s+name=["']layout["']\s+content=["']([^"']+)["']/i
+    )?.[1] || "_Layout.html";
+  const layoutFull = `/src/views/${layoutName}`;
+  const layoutHtml = TPL[layoutFull];
+  if (!layoutHtml) throw new Error(`Layout not found: ${layoutFull}`);
 
-  const layoutRes = await fetch(`/src/views/${layoutName}`, {
-    cache: "no-cache",
-  });
-  if (!layoutRes.ok) throw new Error(`Layout not found: ${layoutName}`);
-  let layoutHtml = await layoutRes.text();
+  // 3) Merge vào {{{body}}} (+ optional {{title}})
+  const viewBody = viewHtml.replace(/<meta[^>]*>/i, "").trim();
+  let merged = layoutHtml.replace(/{{{body}}}/g, viewBody);
+  merged = merged.replace(/{{title}}/g, model.title ?? "");
 
-  const bodyHtml = viewHtml.replace(/<meta[^>]*>/g, "").trim();
-  layoutHtml = layoutHtml.replace(/{{title}}/g, model.title || "");
-  layoutHtml = layoutHtml.replace(/{{{body}}}/g, bodyHtml);
+  // 4) Mount
+  document.body.innerHTML = merged;
 
-  document.body.innerHTML = layoutHtml;
+  // 5) Re-exec <script> (layout + view) để initView được định nghĩa
+  delete window.initView;
+  const scripts = Array.from(document.body.querySelectorAll("script"));
+  await Promise.allSettled(
+    scripts.map((old) => {
+      const s = document.createElement("script");
+      for (const { name, value } of old.attributes) s.setAttribute(name, value);
+      if (old.src) {
+        return new Promise((ok, err) => {
+          s.onload = ok;
+          s.onerror = err;
+          s.src = old.src;
+          old.replaceWith(s);
+        });
+      } else {
+        s.text = old.textContent || "";
+        old.replaceWith(s);
+        return Promise.resolve();
+      }
+    })
+  );
 
-  await loadSharedView("header", "_Header.html");
-  await loadSharedView("footer", "_Footer.html");
-
-  if (window.initView) {
+  // 6) Gọi initView(model) nếu có
+  window.__viewData = model;
+  if (typeof window.initView === "function") {
     const fn = window.initView;
     delete window.initView;
     await fn(model);
@@ -287,38 +315,46 @@ export async function renderView(viewPath, model = {}) {
 ### 5.8 src/utils/viewLoader.js (nâng cấp để script chạy)
 
 ```js
+// Load partials dưới dạng chuỗi (raw) — không fetch
+const PARTIALS = import.meta.glob("/src/views/Shared/*.html", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+});
+
 export async function loadSharedView(elementId, viewName) {
-  const target = document.getElementById(elementId);
-  if (!target) return;
+  const el = document.getElementById(elementId);
+  if (!el) return;
 
-  const res = await fetch(`/src/views/Shared/${viewName}`, {
-    cache: "no-cache",
-  });
-  if (!res.ok) return;
+  const key = `/src/views/Shared/${viewName}`;
+  const html = PARTIALS[key];
+  if (!html) {
+    console.warn("[loadSharedView] not found:", key);
+    return;
+  }
 
-  const html = await res.text();
-  target.innerHTML = html;
+  el.innerHTML = html;
 
-  // Kích hoạt lại script
-  const oldScripts = Array.from(target.querySelectorAll("script"));
-  const pending = oldScripts.map((old) => {
-    const s = document.createElement("script");
-    if (old.type) s.type = old.type;
-    if (old.src) {
-      return new Promise((resolve, reject) => {
-        s.onload = () => resolve();
-        s.onerror = (e) => reject(e);
-        s.src = old.src;
+  // Re-exec <script> bên trong partial
+  const scripts = Array.from(el.querySelectorAll("script"));
+  await Promise.allSettled(
+    scripts.map((old) => {
+      const s = document.createElement("script");
+      for (const { name, value } of old.attributes) s.setAttribute(name, value);
+      if (old.src) {
+        return new Promise((ok, err) => {
+          s.onload = ok;
+          s.onerror = err;
+          s.src = old.src;
+          old.replaceWith(s);
+        });
+      } else {
+        s.text = old.textContent || "";
         old.replaceWith(s);
-      });
-    } else {
-      s.textContent = old.textContent || "";
-      old.replaceWith(s);
-      return Promise.resolve();
-    }
-  });
-
-  await Promise.allSettled(pending);
+        return Promise.resolve();
+      }
+    })
+  );
 }
 ```
 
@@ -327,18 +363,20 @@ export async function loadSharedView(elementId, viewName) {
 #### \_Layout.html
 
 ```html
-<!DOCTYPE html>
-<html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <title>{{title}}</title>
-  </head>
-  <body>
-    <header id="header"></header>
-    <main id="app">{{{body}}}</main>
-    <footer id="footer"></footer>
-  </body>
-</html>
+<body>
+  <header id="header"></header>
+
+  <main id="app">{{{body}}}</main>
+
+  <footer id="footer"></footer>
+
+  <!-- Layout tự load partials -->
+  <script type="module">
+    import { loadSharedView } from "/src/utils/viewLoader.js";
+    loadSharedView("header", "_Header.html");
+    loadSharedView("footer", "_Footer.html");
+  </script>
+</body>
 ```
 
 #### \_Header.html
@@ -353,9 +391,7 @@ export async function loadSharedView(elementId, viewName) {
 #### \_Footer.html
 
 ```html
-<footer>
-  <small>© 2025 EnglishKid Demo</small>
-</footer>
+<small>© 2025 EnglishKid Demo</small>
 ```
 
 #### \_SearchBox.html (ví dụ partial có script)
@@ -384,24 +420,42 @@ export async function loadSharedView(elementId, viewName) {
 
 ```html
 <meta name="layout" content="_Layout.html" />
-<h1>{{title}}</h1>
-<p>{{message}}</p>
+<h1 id="title"></h1>
+<p id="msg"></p>
+<script>
+  window.initView = (m) => {
+    document.getElementById("title").textContent = m.title ?? "";
+    document.getElementById("msg").textContent = m.message ?? "";
+  };
+</script>
 ```
 
 #### Home/About.html
 
 ```html
 <meta name="layout" content="_Layout.html" />
-<h1>{{title}}</h1>
-<p>{{message}}</p>
+<h1 id="title"></h1>
+<p id="msg"></p>
+<script>
+  window.initView = (m) => {
+    document.getElementById("title").textContent = m.title ?? "";
+    document.getElementById("msg").textContent = m.message ?? "";
+  };
+</script>
 ```
 
 #### Home/Contact.html
 
 ```html
 <meta name="layout" content="_Layout.html" />
-<h1>{{title}}</h1>
-<p>{{message}}</p>
+<h1 id="title"></h1>
+<p id="msg"></p>
+<script>
+  window.initView = (m) => {
+    document.getElementById("title").textContent = m.title ?? "";
+    document.getElementById("msg").textContent = m.message ?? "";
+  };
+</script>
 ```
 
 ---

@@ -1,29 +1,19 @@
-// Load partials dưới dạng chuỗi (raw) — không fetch
-const PARTIALS = import.meta.glob("/src/views/Shared/*.html", {
-  query: "?raw",
-  import: "default",
-  eager: true,
-});
-
 export async function loadSharedView(elementId, viewName) {
-  const el = document.getElementById(elementId);
-  if (!el) return;
+  const target = document.getElementById(elementId);
+  if (!target) return;
 
-  const key = `/src/views/Shared/${viewName}`;
-  const html = PARTIALS[key];
-  if (!html) {
-    console.warn("[loadSharedView] not found:", key);
-    return;
-  }
+  const url = `/src/views/Shared/${viewName}`;
+  const res = await fetch(url, { cache: "no-cache" });
+  if (!res.ok) return;
 
-  el.innerHTML = html;
+  target.innerHTML = await res.text();
 
-  // Re-exec <script> bên trong partial
-  const scripts = Array.from(el.querySelectorAll("script"));
+  // Re-exec <script> bên trong shared view (ưu tiên dùng src module)
+  const scripts = Array.from(target.querySelectorAll("script"));
   await Promise.allSettled(
     scripts.map((old) => {
       const s = document.createElement("script");
-      for (const { name, value } of old.attributes) s.setAttribute(name, value);
+      if (old.type) s.type = old.type; // giữ type="module" nếu có
       if (old.src) {
         return new Promise((ok, err) => {
           s.onload = ok;
@@ -32,7 +22,8 @@ export async function loadSharedView(elementId, viewName) {
           old.replaceWith(s);
         });
       } else {
-        s.text = old.textContent || "";
+        // Khuyên: hạn chế inline; nhưng vẫn hỗ trợ nếu có
+        s.textContent = old.textContent || "";
         old.replaceWith(s);
         return Promise.resolve();
       }
